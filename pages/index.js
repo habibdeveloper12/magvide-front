@@ -1,15 +1,12 @@
-
-
-import Layout from '@/components/Layout'
-
+import Banner from '@/components/Banner';
+import Layout from '@/components/Layout';
 
 export default function Home() {
   return (
-<>
-<Layout navbg='bg-[#F0FBFF]'>
-
-</Layout>
-</>
-
-  )
+    <>
+      <Layout navbg="bg-primaryBg">
+        <Banner />
+      </Layout>
+    </>
+  );
 }

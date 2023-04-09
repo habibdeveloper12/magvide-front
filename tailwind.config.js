@@ -16,15 +16,16 @@ module.exports = {
         container: '1220px',
       },
       fontFamily: {
-        pop:['Poppins', 'sans-serif'],
-        inter:['Inter', 'sans-serif']
-      }, 
+        pop: ['Poppins', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
       colors: {
         primary: '#013B94',
-        para:'#8F8E8E',
-        yellow:'#FEDA00'
-      }
-    }, 
+        para: '#8F8E8E',
+        yellow: '#FEDA00',
+        primaryBg: '#F0FBFF',
+      },
+    },
   },
   plugins: [],
-}
+};

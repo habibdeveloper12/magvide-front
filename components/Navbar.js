@@ -6,7 +6,7 @@ import List from './List';
 import { FaBars } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 
-const Navbar = ({navbg}) => {
+const Navbar = ({ navbg }) => {
   const [show, setShow] = useState(true);
 
   useEffect(() => {
@@ -23,14 +23,12 @@ const Navbar = ({navbg}) => {
   return (
     <nav className={navbg}>
       <Container>
-        <div className="md:flex py-1 items-center">
+        <div className="md:flex py-4 items-center">
           <div className="md:w-2/6">
-           <div className='w-[82px] h-[80px] relative'>
+            <div className="w-[82px] h-[80px] relative">
               <Image fill src="/assets/logo2.png" alt="logo" cover />
-
-           </div>
-  
-          </div>   
+            </div>
+          </div>
           <div className=" md:w-4/6">
             <FaBars
               className="block ml-auto md:hidden absolute top-2.5 right-2.5"
