@@ -6,7 +6,7 @@ import Para from './Para';
 import ButtonP from './ButtonP';
 
 const AboutUsSec = () => {
-  return (
+  return (  
     <Container>
       <div className="flex justify-between py-24">
         <div className="w-2/4">
