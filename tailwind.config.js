@@ -26,7 +26,7 @@ module.exports = {
         primaryBg: '#F0FBFF',
       },
       boxShadow: {
-        'cshadow': '0px 1px 10px 2px rgba(0,0,0,0.1)',
+        'cshadow': '2px 2px 5px 2px rgba(0,0,0,0.1)',
       }
     },
   },
