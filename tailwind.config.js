@@ -25,6 +25,9 @@ module.exports = {
         yellow: '#FEDA00',
         primaryBg: '#F0FBFF',
       },
+      boxShadow: {
+        'cshadow': '0px 1px 10px 2px rgba(0,0,0,0.1)',
+      }
     },
   },
   plugins: [],

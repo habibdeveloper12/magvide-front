@@ -8,7 +8,7 @@ import ButtonS from './ButtonS';
 
 const Banner = () => {
   return (
-    <div className="bg-primaryBg w-4/4 h-[90vh]">
+    <div className="bg-primaryBg w-4/4 h-[100vh]">
       <Container>
         <div className="flex">
           <div className="w-2/4 h-[90vh] flex flex-col justify-center ">

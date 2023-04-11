@@ -5,6 +5,7 @@ import ListItem from './ListItem';
 import List from './List';
 import { FaBars } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
+import {MdKeyboardArrowDown} from 'react-icons/md'
 
 const Navbar = ({ navbg }) => {
   const [show, setShow] = useState(true);
@@ -43,10 +44,12 @@ const Navbar = ({ navbg }) => {
                   />
                 </Link>
                 <Link href="/services">
+                  
                   <ListItem
-                    className="hover:font-bold my-2 md:my-0"
+                    className="hover:font-bold my-2 md:my-0 inline"
                     itemname="Services"
                   />
+                  <MdKeyboardArrowDown className='inline text-2xl' />
                 </Link>
                 <Link href="/aboutus">
                   <ListItem
