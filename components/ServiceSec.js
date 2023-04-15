@@ -19,7 +19,7 @@ const ServiceSec = () => {
             title="What We Have Here"
           />
           <div className="flex justify-between pt-4">
-            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-2xl">
+            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
               <div className="w-[100%] h-[191px] relative">
                 <Image
                   fill
@@ -41,7 +41,7 @@ const ServiceSec = () => {
                 </button>
               </div>
             </div>
-            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-2xl">
+            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
               <div className="w-[100%] h-[191px] relative">
                 <Image
                   fill
@@ -63,7 +63,7 @@ const ServiceSec = () => {
                 </button>
               </div>
             </div>
-            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-2xl">
+            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
               <div className="w-[100%] h-[191px] relative">
                 <Image
                   fill
@@ -85,7 +85,7 @@ const ServiceSec = () => {
                 </button>
               </div>
             </div>
-            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-2xl">
+            <div className="w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
               <div className="w-[100%] h-[191px] relative">
                 <Image
                   fill

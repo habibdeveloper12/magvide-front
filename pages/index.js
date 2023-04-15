@@ -4,6 +4,7 @@ import BannerBottom from '@/components/BannerBottom';
 import ChooseSec from '@/components/ChooseSec';
 import Layout from '@/components/Layout';
 import ServiceSec from '@/components/ServiceSec';
+import WorkSec from '@/components/WorkSec';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <AboutUsSec />
         <ServiceSec />
         <ChooseSec />
+        <WorkSec />
       </Layout>
     </>
   );

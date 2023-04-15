@@ -7,7 +7,7 @@ import SubHeading from "./SubHeading";
 
 const ChooseSec = () => {
   return (
-    <div className="mt-24 mb-[450px]">
+    <div className="mt-24">
       <Container>
         <div>
           <div className="w-[65%] mx-auto">
@@ -87,6 +87,12 @@ const ChooseSec = () => {
             </div>
           </div>
         </div>
+        <div className="my-40">
+        <div className='w-[1000px] h-[629px] mx-auto relative border-[15px] border-[#F0FBFF] rounded-[50px] shadow-cshadow'>
+
+        <Image fill src="/assets/video-img.png" alt="temporary-video-img" />
+        </div>
+      </div>
       </Container>
     </div>
   );
