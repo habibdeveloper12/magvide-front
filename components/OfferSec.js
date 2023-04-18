@@ -19,11 +19,10 @@ const OfferSec = () => {
             className="text-center text-primary py-5  text-5xl font-bold font-pop"
             title="Our Services Category"
           />
-          <div className="w-[70%] mx-auto">
+          <div className="w-[90%] mx-auto">
             <Para
               className="text-center text-lg text-para font-inter pb-8"
-              title="In our daily life, people usually look for different IT services 
-            for that. But from now on, no more worries,"
+              title="In our daily life, people usually look for different IT services for that. But from now on, no more worries, our service has the solution for everything. We have"
             />
           </div>
         </div>

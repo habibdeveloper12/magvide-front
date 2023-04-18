@@ -50,12 +50,12 @@ const ReviewSec = () => {
           <div className="w-[65%] mx-auto">
             <SubHeading
               className="text-center text-xl text-yellow font-pop font-bold"
-              title="OUR WORKS"
+              title="REVIEWS"
             />
             <Heading
               className="text-center text-primary py-7 leading-[64px] text-5xl font-bold font-pop"
-              title="Our Latest Incredible Client’s 
-              Projects"
+              title="Some Sweet Talks Of Our 
+              Happy Clients"
             />
            
           </div>
@@ -89,11 +89,11 @@ const ReviewSec = () => {
           <div className="max-w-[90%] rounded-xl p-6 shadow-cshadow my-7 mx-1">
             <div className="flex items-center gap-5">
               <div className="w-[75.5px] h-[75.5px] relative">
-                <Image fill src='/assets/review-image1.png' alt='review-image' />
+                <Image fill src='/assets/review-image2.png' alt='review-image' />
               </div>
               <div>
-                <Heading title='Danial potter' className='text-lg font-bold' />
-                <SubHeading title='Product designer' className='text-lg' />
+                <Heading title='Alison Dawn' className='text-lg font-bold' />
+                <SubHeading title='Developer' className='text-lg' />
               </div>
             </div>
               <Para
@@ -111,11 +111,11 @@ const ReviewSec = () => {
           <div className="max-w-[90%] rounded-xl p-6 shadow-cshadow my-7 mx-1">
             <div className="flex items-center gap-5">
               <div className="w-[75.5px] h-[75.5px] relative">
-                <Image fill src='/assets/review-image1.png' alt='review-image' />
+                <Image fill src='/assets/review-image3.png' alt='review-image' />
               </div>
               <div>
-                <Heading title='Danial potter' className='text-lg font-bold' />
-                <SubHeading title='Product designer' className='text-lg' />
+                <Heading title='Albert Cole' className='text-lg font-bold' />
+                <SubHeading title='Designer' className='text-lg' />
               </div>
             </div>
               <Para
@@ -133,11 +133,11 @@ const ReviewSec = () => {
           <div className="max-w-[90%] rounded-xl p-6 shadow-cshadow my-7 mx-1">
             <div className="flex items-center gap-5">
               <div className="w-[75.5px] h-[75.5px] relative">
-                <Image fill src='/assets/review-image1.png' alt='review-image' />
+                <Image fill src='/assets/review-image2.png' alt='review-image' />
               </div>
               <div>
-                <Heading title='Danial potter' className='text-lg font-bold' />
-                <SubHeading title='Product designer' className='text-lg' />
+                <Heading title='Alison Dawn' className='text-lg font-bold' />
+                <SubHeading title='Developer' className='text-lg' />
               </div>
             </div>
               <Para
