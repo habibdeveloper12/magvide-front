@@ -1,12 +1,13 @@
-import AboutUsSec from '@/components/AboutUsSec';
-import Banner from '@/components/Banner';
-import BannerBottom from '@/components/BannerBottom';
-import ChooseSec from '@/components/ChooseSec';
-import Layout from '@/components/Layout';
-import PaymentSec from '@/components/PaymentSec';
-import ReviewSec from '@/components/ReviewSec';
-import ServiceSec from '@/components/ServiceSec';
-import WorkSec from '@/components/WorkSec';
+import AboutUsSec from "@/components/homeSec/AboutUsSec";
+import Banner from "@/components/homeSec/Banner";
+import BannerBottom from "@/components/homeSec/BannerBottom";
+import ChooseSec from "@/components/homeSec/ChooseSec";
+import PaymentSec from "@/components/homeSec/PaymentSec";
+import ReviewSec from "@/components/homeSec/ReviewSec";
+import ServiceSec from "@/components/homeSec/ServiceSec";
+import WorkSec from "@/components/homeSec/WorkSec";
+import Layout from "@/components/layout/Layout";
+
 
 export default function Home() {
   return (

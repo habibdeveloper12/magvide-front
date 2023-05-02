@@ -1,24 +1,25 @@
-import Image from "next/image"
-import Container from "./Container"
-import Heading from "./Heading"
-import ButtonP from "./ButtonP"
-import Para from "./Para"
-import SubHeading from "./SubHeading"
+import Image from 'next/image';
+import Container from '../layout/Container';
+import SubHeading from '../layout/SubHeading';
+import Heading from '../layout/Heading';
+import Para from '../layout/Para';
+import ButtonP from '../layout/ButtonP';
+
 
 
 const AboutBannerSec = () => {
   return (
     <div className="bg-primaryBg  relative py-10">
-    <div className="absolute left-0 top-0">
-      <div className="w-[155px] h-[550px] relative">
-        <Image
-          fill
-          src="/assets/banner_left.png"
-          alt="banner_left_angle_image"
-        />
+      <div className="absolute left-0 top-0">
+        <div className="w-[155px] h-[550px] relative">
+          <Image
+            fill
+            src="/assets/banner_left.png"
+            alt="banner_left_angle_image"
+          />
+        </div>
       </div>
-    </div>
-    <Container>
+      <Container>
         <div className="flex">
           <div className="w-2/4 flex flex-col justify-center pl-32 ">
             <SubHeading
@@ -34,26 +35,23 @@ const AboutBannerSec = () => {
               title="In our daily life, people usually look for different IT services 
               for that. But from now on, no more worries"
             />
-              <div>
-
+            <div>
               <ButtonP title="Get Started" />
-              </div>
-         
+            </div>
           </div>
-       
         </div>
       </Container>
-    <div className="absolute right-0 top-0">
-      <div className="w-[634px] h-[413px] relative">
-        <Image
-          fill
-          src="/assets/about_banner_right_image.png"
-          alt="about_banner_right_image"
-        />
+      <div className="absolute right-0 top-0">
+        <div className="w-[634px] h-[413px] relative">
+          <Image
+            fill
+            src="/assets/about_banner_right_image.png"
+            alt="about_banner_right_image"
+          />
+        </div>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default AboutBannerSec
+export default AboutBannerSec;

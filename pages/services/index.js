@@ -1,7 +1,8 @@
-import CreativeSec from '@/components/CreativeSec';
-import Layout from '@/components/Layout';
-import OfferSec from '@/components/OfferSec';
-import ServicesBanner from '@/components/ServicesBanner';
+import OfferSec from "@/components/servicesSec/OfferSec";
+import Layout from "@/components/layout/Layout";
+import CreativeSec from "@/components/servicesSec/CreativeSec";
+import ServicesBanner from "@/components/servicesSec/ServicesBanner";
+
 
 const index = () => {
   return (

@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import Container from './Container';
-import Heading from './Heading';
+import Container from '../layout/Container';
+import Heading from '../layout/Heading';
+
 
 const ServicesBanner = () => {
   return (

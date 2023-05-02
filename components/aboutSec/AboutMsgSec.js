@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import Container from './Container';
-import Heading from './Heading';
-import Para from './Para';
+import Container from '../layout/Container';
+import Heading from '../layout/Heading';
+import Para from '../layout/Para';
 
 const AboutMsgSec = () => {
   return (
@@ -61,7 +61,7 @@ const AboutMsgSec = () => {
                   placeholder="Write us what you want to know"
                 />
               </div>
-              <button type='submit' className="border-2 bg-primary border-solid text-lg font-medium font-pop rounded-lg border-primary text-white px-10 py-2 hover:font-medium hover:bg-white hover:text-primary">
+              <button type='submit' className="border-2 bg-primary transition duration-300 ease-in-out border-solid text-lg font-medium font-pop rounded-lg border-primary text-white px-10 py-2 hover:font-medium hover:bg-white hover:text-primary">
                 Submit
               </button>
             </form>

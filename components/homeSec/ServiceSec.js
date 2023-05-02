@@ -1,9 +1,10 @@
-import Image from 'next/image';
-import Container from './Container';
-import Heading from './Heading';
-import SubHeading from './SubHeading';
-import Para from './Para';
-import ButtonP from './ButtonP';
+import Image from "next/image";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
+import SubHeading from "../layout/SubHeading";
+import Para from "../layout/Para";
+import ButtonP from "../layout/ButtonP";
+
 
 const ServiceSec = () => {
   return (

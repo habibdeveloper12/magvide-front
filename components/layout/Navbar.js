@@ -39,27 +39,31 @@ const Navbar = ({ navbg }) => {
               <List className="text-primary md:flex md:justify-end md:gap-x-8 font-pop text-lg mt-2.5 md:mt-0">
                 <Link href="/">
                   <ListItem
-                    className="font-bold hover:font-bold my-2 md:my-0"
+                    className="font-bold border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold my-2 md:my-0"
                     itemname="Home"
                   />
                 </Link>
-                <Link href="/services">
+                <Link href="/services" className='relative'>
                   
                   <ListItem
-                    className="hover:font-bold my-2 md:my-0 inline"
+                    className=" font-bold my-2 md:my-0 inline"
                     itemname="Services"
                   />
                   <MdKeyboardArrowDown className='inline text-2xl' />
+
+                  <div className='w-[800px] h-[200px] bg-red-500 absolute right-[30%] top-[200%] z-10 hidden'>
+
+                  </div>
                 </Link>
                 <Link href="/aboutus">
                   <ListItem
-                    className="hover:font-bold my-2 md:my-0"
+                      className="font-bold border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold my-2 md:my-0"
                     itemname="About Us"
                   />
                 </Link>
                 <Link href="/contactus">
                   <ListItem
-                    className="hover:font-bold my-2 md:my-0"
+                      className="font-bold border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold my-2 md:my-0"
                     itemname="Contact Us"
                   />
                 </Link>

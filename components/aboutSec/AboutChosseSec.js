@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import Container from './Container'
-import Heading from './Heading'
-import Para from './Para'
-import SubHeading from './SubHeading'
+import Container from '../layout/Container'
+import SubHeading from '../layout/SubHeading'
+import Heading from '../layout/Heading'
+import Para from '../layout/Para'
+
 
 const AboutChosseSec = () => {
   return (

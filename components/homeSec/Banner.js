@@ -1,10 +1,11 @@
-import Image from 'next/image';
-import Container from './Container';
-import Heading from './Heading';
-import Para from './Para';
-import SubHeading from './SubHeading';
-import ButtonP from './ButtonP';
-import ButtonS from './ButtonS';
+import Image from "next/image";
+import ButtonP from "../layout/ButtonP";
+import ButtonS from "../layout/ButtonS";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import SubHeading from "../layout/SubHeading";
+
 
 const Banner = () => {
   return (

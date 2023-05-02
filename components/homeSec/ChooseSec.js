@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Container from "./Container";
-import Heading from "./Heading";
-import Para from "./Para";
-import SubHeading from "./SubHeading";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import SubHeading from "../layout/SubHeading";
 
 
 const ChooseSec = () => {
@@ -29,10 +29,9 @@ const ChooseSec = () => {
             </div>
           </div>
           <div className="flex justify-between pt-6">
-          <div className="w-[23%] shadow-cshadow p-7 rounded-md">
+            <div className="w-[23%] shadow-cshadow p-7 rounded-md">
               <div className="w-[80px] h-[84px] relative">
-
-              <Image fill src="/assets/brand-icon.png" alt="brand-icon-img" />
+                <Image fill src="/assets/brand-icon.png" alt="brand-icon-img" />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
@@ -44,9 +43,12 @@ const ChooseSec = () => {
               />
             </div>
             <div className="w-[23%] shadow-cshadow p-7 rounded-md">
-            <div className="w-[80px] h-[84px] relative">
-
-              <Image fill src="/assets/social-icon.png" alt="brand-icon-img" />
+              <div className="w-[80px] h-[84px] relative">
+                <Image
+                  fill
+                  src="/assets/social-icon.png"
+                  alt="brand-icon-img"
+                />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
@@ -58,9 +60,12 @@ const ChooseSec = () => {
               />
             </div>
             <div className="w-[23%] shadow-cshadow p-7 rounded-md">
-            <div className="w-[80px] h-[84px] relative">
-
-              <Image fill src="/assets/design-icon.png" alt="brand-icon-img" />
+              <div className="w-[80px] h-[84px] relative">
+                <Image
+                  fill
+                  src="/assets/design-icon.png"
+                  alt="brand-icon-img"
+                />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
@@ -72,9 +77,8 @@ const ChooseSec = () => {
               />
             </div>
             <div className="w-[23%] shadow-cshadow p-7 rounded-md">
-            <div className="w-[80px] h-[84px] relative">
-
-              <Image fill src="/assets/grow-icon.png" alt="brand-icon-img" />
+              <div className="w-[80px] h-[84px] relative">
+                <Image fill src="/assets/grow-icon.png" alt="brand-icon-img" />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
@@ -88,11 +92,10 @@ const ChooseSec = () => {
           </div>
         </div>
         <div className="my-40">
-        <div className='w-[1000px] h-[629px] mx-auto relative border-[15px] border-[#F0FBFF] rounded-[50px] shadow-cshadow'>
-
-        <Image fill src="/assets/video-img.png" alt="temporary-video-img" />
+          <div className="w-[1000px] h-[629px] mx-auto relative border-[15px] border-[#F0FBFF] rounded-[50px] shadow-cshadow">
+            <Image fill src="/assets/video-img.png" alt="temporary-video-img" />
+          </div>
         </div>
-      </div>
       </Container>
     </div>
   );

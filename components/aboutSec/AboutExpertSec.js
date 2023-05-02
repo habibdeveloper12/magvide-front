@@ -1,8 +1,10 @@
-import Para from './Para'
-import SubHeading from './SubHeading'
 import Image from 'next/image'
-import Heading from './Heading'
-import Container from './Container'
+import Container from '../layout/Container'
+import Heading from '../layout/Heading'
+import SubHeading from '../layout/SubHeading'
+import Para from '../layout/Para'
+
+
 
 const AboutExpertSec = () => {
   return (

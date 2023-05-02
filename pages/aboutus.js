@@ -1,10 +1,10 @@
-import AboutBannerSec from "@/components/AboutBannerSec"
-import AboutChosseSec from "@/components/AboutChosseSec"
-import AboutExpertSec from "@/components/AboutExpertSec"
-import AboutMsgSec from "@/components/AboutMsgSec"
-import AboutPartnerSec from "@/components/AboutPartnerSec"
-import AboutSkillSec from "@/components/AboutSkillSec"
-import Layout from "@/components/Layout"
+import AboutBannerSec from "@/components/aboutSec/AboutBannerSec";
+import AboutChosseSec from "@/components/aboutSec/AboutChosseSec";
+import AboutExpertSec from "@/components/aboutSec/AboutExpertSec";
+import AboutMsgSec from "@/components/aboutSec/AboutMsgSec";
+import AboutPartnerSec from "@/components/aboutSec/AboutPartnerSec";
+import AboutSkillSec from "@/components/aboutSec/AboutSkillSec";
+import Layout from "@/components/layout/Layout";
 
 
 const aboutus = () => {
@@ -17,7 +17,7 @@ const aboutus = () => {
       <AboutExpertSec />
       <AboutMsgSec />
     </Layout>
-  )
-}
+  );
+};
 
-export default aboutus
+export default aboutus;

@@ -1,9 +1,10 @@
 import Image from "next/image"
-import SubHeading from "./SubHeading"
-import Heading from "./Heading"
-import Para from "./Para"
-import Container from "./Container"
-import ButtonP from "./ButtonP"
+import Container from "../layout/Container"
+import SubHeading from "../layout/SubHeading"
+import Heading from "../layout/Heading"
+import Para from "../layout/Para"
+import ButtonP from "../layout/ButtonP"
+
 
 
 const AboutPartnerSec = () => {

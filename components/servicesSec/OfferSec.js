@@ -1,10 +1,11 @@
 import React from 'react';
-import Container from './Container';
-import SubHeading from './SubHeading';
-import Heading from './Heading';
-import Para from './Para';
+import Container from '../layout/Container';
+import SubHeading from '../layout/SubHeading';
+import Heading from '../layout/Heading';
+import Para from '../layout/Para';
 import Image from 'next/image';
-import ButtonP from './ButtonP';
+import ButtonP from '../layout/ButtonP';
+
 
 const OfferSec = () => {
   return (
@@ -29,14 +30,18 @@ const OfferSec = () => {
         <div className="flex">
           <div className="w-2/4 pr-24 border-r-2 border-primary border-dashed">
             <div className="w-[80%] ml-auto shadow-cshadow p-7 rounded-md relative mt-52">
-            <div className="w-20 h-20 bg-[#17BD8D] flex rounded-[50%] absolute  top-[33%] right-[-137px]">
+              <div className="w-20 h-20 bg-[#17BD8D] flex rounded-[50%] absolute  top-[33%] right-[-137px]">
                 <Para
                   className="text-white font-bold text-2xl mx-auto my-auto"
                   title="02"
                 />
               </div>
               <div className="w-[49.30px] h-[50px] relative">
-                <Image fill src="/assets/service_icon_image.png" alt="service_icon_image" />
+                <Image
+                  fill
+                  src="/assets/service_icon_image.png"
+                  alt="service_icon_image"
+                />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
@@ -48,14 +53,18 @@ const OfferSec = () => {
               />
             </div>
             <div className="w-[80%] ml-auto shadow-cshadow p-7 rounded-md relative mt-40">
-            <div className="w-20 h-20 bg-[#F54D77] flex rounded-[50%] absolute  top-[33%] right-[-137px]">
+              <div className="w-20 h-20 bg-[#F54D77] flex rounded-[50%] absolute  top-[33%] right-[-137px]">
                 <Para
                   className="text-white font-bold text-2xl mx-auto my-auto"
                   title="04"
                 />
               </div>
               <div className="w-[39px] h-[50px] relative">
-                <Image fill src="/assets/app_icon_image.png" alt="app_icon_image" />
+                <Image
+                  fill
+                  src="/assets/app_icon_image.png"
+                  alt="app_icon_image"
+                />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
@@ -77,7 +86,11 @@ const OfferSec = () => {
               </div>
 
               <div className="w-[66px] h-[50px] relative">
-                <Image fill src="/assets/marketing_icon_image.png" alt="marketing_icon_image" />
+                <Image
+                  fill
+                  src="/assets/marketing_icon_image.png"
+                  alt="marketing_icon_image"
+                />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
@@ -96,11 +109,15 @@ const OfferSec = () => {
                 />
               </div>
               <div className="w-[58px] h-[50px] relative">
-                <Image fill src="/assets/web_icon_image.png" alt="web_icon_image" />
+                <Image
+                  fill
+                  src="/assets/web_icon_image.png"
+                  alt="web_icon_image"
+                />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-xl pt-6 pb-4"
-                title="WEB DESIGN & DEVELOPMENT" 
+                title="WEB DESIGN & DEVELOPMENT"
               />
               <Para
                 className=" text-lg text-para font-inter"
@@ -109,9 +126,9 @@ const OfferSec = () => {
             </div>
           </div>
         </div>
-          <div className="mt-16 text-center">
-            <ButtonP title="Get Started Now" />
-          </div>
+        <div className="mt-16 text-center">
+          <ButtonP title="Get Started Now" />
+        </div>
       </Container>
     </div>
   );
