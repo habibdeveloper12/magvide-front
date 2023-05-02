@@ -9,7 +9,7 @@ const AboutMsgSec = () => {
       <Container>
         <div className="flex">
           <div className="w-2/4 mt-10">
-            <div className="w-[100%] h-[500px] relative block">
+            <div className="w-[100%] h-[480px] relative block">
               <Image
                 fill
                 src="/assets/msg_banner_image.png"
