@@ -16,7 +16,7 @@ const CreativeSec = () => {
             title="CREATIVE SERVICES"
           />
           <Heading
-            className="text-center text-primary py-5  text-5xl font-bold font-pop"
+            className="text-center leading-[64px] text-primary py-5  text-5xl font-bold font-pop "
             title="We Are A Full-Stack Digital Creative
           Consulting Agency"
           />

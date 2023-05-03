@@ -56,10 +56,12 @@ const Navbar = ({ navbg }) => {
                   <div className="group/edit w-max  duration-300 ease-in-out invisible bg-white shadow-cshadow2 absolute right-[-240%] top-[220%] z-10 group-hover/item:visible group-hover/item:top-[200%]">
                     <div className="flex px-7 py-10">
                       <div className="w-max pr-5 border-r border-primary">
+                        <Link href='/services/digitalMarketing'>
                         <SubHeading
                           className="text-primary font-pop font-bold text-xl pb-3"
-                          title="Digital Marketing"
+                          title="DIGITAL MARKETING"
                         />
+                        </Link>
                         <Link href="/">
                           <ListItem
                             className=" font-semibold text-[#1B1B1B] text-xs pb-2 md:my-0 "
@@ -171,10 +173,12 @@ const Navbar = ({ navbg }) => {
                         </Link>
                       </div>
                       <div className="w-max pr-5 border-r border-primary pl-4">
+                        <Link href="/services/webDesingDev">
                         <SubHeading
                           className="text-primary font-pop font-bold text-xl pb-3"
                           title="WEB DESIGN & DEVELOPMENT "
                         />
+                        </Link>
                         <Link href="/">
                           <ListItem
                             className=" font-semibold text-[#1B1B1B] text-xs pb-2 md:my-0 "
