@@ -9,42 +9,42 @@ const BannerBottom = () => {
   return (
     <div className="mt-[-70px]">
       <Container>
-        <div className="flex shadow-cshadow py-8 rounded-2xl bg-white">
+        <div className="flex  px-3 w-[95%] sm:w-[90%] mx-auto shadow-cshadow py-5 md:py-8 rounded-2xl bg-white">
           <div className="w-2/6 flex items-center gap-x-3 justify-center">
-            <GiCheckMark className="text-4xl text-green-600" />
+            <GiCheckMark className=" text-xl sm:text-2xl md:text-4xl text-green-600" />
             <div>
               <SubHeading
-                className="text-primary font-medium font-pop text-4xl mb-1"
+                className="text-primary font-pop font-bold text-sm sm:text-base md:text-lg lg:text-xl"
                 title="Success Stories"
               />
               <Para
-                className="text-lg text-para font-inter"
+                className=" text-xs sm:text-sm md:text-base lg:text-lg text-para font-inter"
                 title="100% Success"
               />
             </div>
           </div>
           <div className="w-2/6 flex items-center gap-x-3 justify-center">
-            <FcManager className="text-4xl" />
+            <FcManager className="text-xl sm:text-2xl md:text-4xl" />
             <div>
               <SubHeading
-                className="text-primary font-medium font-pop text-4xl mb-1"
+                className="text-primary font-pop font-bold text-sm sm:text-base md:text-lg lg:text-xl"
                 title="Expert Employee"
               />
               <Para
-                className="text-para font-inter"
+                className=" text-xs sm:text-sm md:text-base lg:text-lg text-para font-inter"
                 title="All Employees Are Expert"
               />
             </div>
           </div>
           <div className="w-2/6 flex items-center gap-x-3 justify-center">
-            <AiFillWechat className="text-4xl text-[#0084FF]" />
+            <AiFillWechat className="text-xl sm:text-2xl md:text-4xl text-[#0084FF]" />
             <div>
               <SubHeading
-                className="text-primary font-medium font-pop text-4xl mb-1"
+                className="text-primary font-pop font-bold text-sm sm:text-base md:text-lg lg:text-xl"
                 title="Collaboration"
               />
               <Para
-                className="text-para font-inter"
+                className=" text-xs sm:text-sm md:text-base lg:text-lg text-para font-inter"
                 title="Good Collaboration"
               />
             </div>

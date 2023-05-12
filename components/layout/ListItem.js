@@ -1,9 +1,5 @@
+const ListItem = ({ itemname, className }) => {
+  return <li className={className}>{itemname}</li>;
+};
 
-
-const ListItem = ({itemname, className}) => {
-  return (
-    <li className={className}>{itemname}</li>
-  )
-}
-
-export default ListItem
+export default ListItem;

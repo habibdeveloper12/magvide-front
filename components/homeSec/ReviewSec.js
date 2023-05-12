@@ -1,5 +1,3 @@
-
-
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import { GrNext, GrPrevious } from 'react-icons/gr';
@@ -9,7 +7,6 @@ import SubHeading from '../layout/SubHeading';
 import Heading from '../layout/Heading';
 import Para from '../layout/Para';
 import ButtonP from '../layout/ButtonP';
-
 
 const ReviewSec = () => {
   function SampleNextArrow(props) {
@@ -46,19 +43,38 @@ const ReviewSec = () => {
     arrows: true,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <div className="py-20">
+    <div className=" py-10 sm:py-16 md:py-20 lg:py-24">
       <Container>
-        <div className="w-[65%] mx-auto">
+        <div className="w-[75%] md:w-[65%] mx-auto">
           <SubHeading
-            className="text-center text-xl text-yellow font-pop font-bold"
+            className="text-center text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
             title="REVIEWS"
           />
           <Heading
-            className="text-center text-primary py-7 leading-[64px] text-5xl font-bold font-pop"
+            className=" text-center text-primary py-2 sm:py-3 md:py-4 lg:py-5 xl:py-7 lg:leading-[44px] xl:leading-[64px] text-xl sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bold font-pop"
             title="Some Sweet Talks Of Our 
               Happy Clients"
           />
@@ -186,7 +202,7 @@ const ReviewSec = () => {
             </div>
           </Slider>
         </div>
-        <div className="mt-16 text-center">
+        <div className="mt-4 sm:mt-8 md:mt-12 lg:mt-16 text-center">
           <ButtonP title="View All..." />
         </div>
       </Container>

@@ -5,31 +5,30 @@ import Heading from '../layout/Heading';
 import Para from '../layout/Para';
 import ButtonP from '../layout/ButtonP';
 
-
 const CreativeSec = () => {
   return (
-    <div className="py-14">
+    <div className=" py-10 md:py-12 lg:py-14">
       <Container>
-        <div className="w-[70%] mx-auto">
+        <div className="w-[95%] sm:w-[85%] md:w-[75%] lg:w-[65%] xl:w-[70%] mx-auto">
           <SubHeading
-            className="text-center text-xl text-yellow font-pop font-bold"
+            className="text-center text-sm sm:text-base md:text-lg lg:text-xl text-yellow font-pop font-bold"
             title="CREATIVE SERVICES"
           />
           <Heading
-            className="text-center leading-[64px] text-primary py-5  text-5xl font-bold font-pop "
+            className="text-center text-primary py-2 sm:py-3 md:py-4 lg:py-5 xl:py-7 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bold font-pop"
             title="We Are A Full-Stack Digital Creative
           Consulting Agency"
           />
           <div className="mx-auto">
             <Para
-              className="text-center text-lg text-para font-inter pb-8"
+              className=" text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-8"
               title="In our daily life, people usually look for different IT services for that. But from now on, no more worries, our service has the solution for everything. We have"
             />
           </div>
         </div>
-        <div className="flex justify-between flex-wrap gap-y-8 py-8">
-          <div className="w-[31.5%] px-7 py-14 rounded-md text-center bg-primaryBg">
-            <div className="w-[150px] h-[150px] relative mx-auto">
+        <div className="flex justify-between flex-wrap px-3 md:px-5 gap-y-4 md:gap-y-6 lg:gap-y-8  sm:py-6 md:py-8">
+          <div className="w-[48%] sm:w-[31.5%] px-3 py-5 sm:px-5 sm:py-8 lg:px-5 xl:px-7 lg:py-10 xl:py-14 rounded-md text-center  bg-primaryBg">
+            <div className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] lg:w-[140px] lg:h-[140px] xl:w-[150px] xl:h-[150px] relative mx-auto">
               <Image
                 fill
                 src="/assets/graphics_icon_image.png"
@@ -37,16 +36,17 @@ const CreativeSec = () => {
               />
             </div>
             <SubHeading
-              className="text-primary font-pop font-bold text-xl pt-6 pb-4"
+              className="text-primary font-pop font-semibold text-base sm:text-lg lg:text-xl
+            pt-4 pb-2 lg:pt-6 lg:pb-4"
               title="GRAPHICS DESIGN"
             />
             <Para
-              className="text-md  font-light text-para font-inter"
+              className="font-light text-sm md:text-base lg:text-lg text-para font-inter"
               title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
             />
           </div>
-          <div className="w-[31.5%] px-6 py-14 rounded-md text-center  bg-primary">
-            <div className="w-[150px] h-[150px] relative mx-auto">
+          <div className="w-[48%] sm:w-[31.5%] px-3 py-5 sm:px-5 sm:py-8 lg:px-5 xl:px-7 lg:py-10 xl:py-14 rounded-md text-center  bg-primary">
+            <div className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] lg:w-[140px] lg:h-[140px] xl:w-[150px] xl:h-[150px] relative mx-auto">
               <Image
                 fill
                 src="/assets/uxdesign_icon_image.png"
@@ -54,16 +54,17 @@ const CreativeSec = () => {
               />
             </div>
             <SubHeading
-              className="text-white font-pop font-bold text-xl pt-6 pb-4"
+              className="text-white font-pop font-semibold text-base sm:text-lg lg:text-xl
+                pt-4 pb-2 lg:pt-6 lg:pb-4"
               title="UI&UX DESIGN"
             />
             <Para
-              className=" text-md  font-light text-white font-inter"
+              className="font-light text-sm md:text-base lg:text-lg text-white font-inter"
               title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
             />
           </div>
-          <div className="w-[31.5%] px-6 py-14 rounded-md text-center   bg-primaryBg">
-            <div className="w-[150px] h-[150px] relative mx-auto">
+          <div className="w-[48%] sm:w-[31.5%] px-3 py-5 sm:px-5 sm:py-8 lg:px-5 xl:px-7 lg:py-10 xl:py-14 rounded-md text-center   bg-primary sm:bg-primaryBg">
+            <div className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] lg:w-[140px] lg:h-[140px] xl:w-[150px] xl:h-[150px] relative mx-auto">
               <Image
                 fill
                 src="/assets/motiondesign_icon_image.png"
@@ -71,16 +72,17 @@ const CreativeSec = () => {
               />
             </div>
             <SubHeading
-              className="text-primary font-pop font-bold text-xl pt-6 pb-4"
+              className="text-white sm:text-primary font-pop font-semibold text-base sm:text-lg lg:text-xl
+             pt-4 pb-2 lg:pt-6 lg:pb-4"
               title="MOTION DESIGN"
             />
             <Para
-              className=" text-md  font-light text-para font-inter"
+              className=" font-light text-sm md:text-base lg:text-lg text-white sm:text-para font-inter"
               title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
             />
           </div>
-          <div className="w-[31.5%] px-6 py-14 rounded-md text-center bg-primary">
-            <div className="w-[150px] h-[150px] relative mx-auto">
+          <div className="w-[48%] sm:w-[31.5%] px-3 py-5 sm:px-5 sm:py-8 lg:px-5 xl:px-7 lg:py-10 xl:py-14 rounded-md text-center  bg-primaryBg sm:bg-primary">
+            <div className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] lg:w-[140px] lg:h-[140px] xl:w-[150px] xl:h-[150px] relative mx-auto">
               <Image
                 fill
                 src="/assets/2D&3Ddesign_icon_image.png"
@@ -88,16 +90,17 @@ const CreativeSec = () => {
               />
             </div>
             <SubHeading
-              className="text-white font-pop font-bold text-xl pt-6 pb-4"
+              className="text-primary sm:text-white font-pop font-semibold text-base sm:text-lg lg:text-xl
+         pt-4 pb-2 lg:pt-6 lg:pb-4"
               title="2D & 3D DESIGN"
             />
             <Para
-              className=" text-md  font-light text-white font-inter"
+              className="font-light text-sm md:text-base lg:text-lg text-para sm:text-white font-inter"
               title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
             />
           </div>
-          <div className="w-[31.5%] px-6 py-14 rounded-md text-center  bg-primaryBg">
-            <div className="w-[150px] h-[150px] relative mx-auto">
+          <div className="w-[48%] sm:w-[31.5%] px-3 py-5 sm:px-5 sm:py-8 lg:px-5 xl:px-7 lg:py-10 xl:py-14 rounded-md text-center  bg-primaryBg">
+            <div className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] lg:w-[140px] lg:h-[140px] xl:w-[150px] xl:h-[150px] relative mx-auto">
               <Image
                 fill
                 src="/assets/3Danimation_icon_image.png"
@@ -105,16 +108,17 @@ const CreativeSec = () => {
               />
             </div>
             <SubHeading
-              className="text-primary font-pop font-bold text-xl pt-6 pb-4"
+              className="text-primary font-pop font-semibold text-base sm:text-lg lg:text-xl
+             pt-4 pb-2 lg:pt-6 lg:pb-4"
               title="3D ANIMATION"
             />
             <Para
-              className=" text-md  font-light text-para font-inter"
+              className=" font-light text-sm md:text-base lg:text-lg text-para font-inter"
               title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
             />
           </div>
-          <div className="w-[31.5%] px-6 py-14 rounded-md text-center bg-primary">
-            <div className="w-[150px] h-[150px] relative mx-auto">
+          <div className="w-[48%] sm:w-[31.5%] px-3 py-5 sm:px-5 sm:py-8 lg:px-5 xl:px-7 lg:py-10 xl:py-14 rounded-md text-center  bg-primary">
+            <div className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] lg:w-[140px] lg:h-[140px] xl:w-[150px] xl:h-[150px] relative mx-auto">
               <Image
                 fill
                 src="/assets/3Dmodeling_icon_image.png"
@@ -122,17 +126,18 @@ const CreativeSec = () => {
               />
             </div>
             <SubHeading
-              className="text-white font-pop font-bold text-xl pt-6 pb-4"
+              className="text-white font-pop font-semibold text-base sm:text-lg lg:text-xl
+           pt-4 pb-2 lg:pt-6 lg:pb-4"
               title="3D MODELING"
             />
             <Para
-              className=" text-md  font-light text-white font-inter"
+              className=" font-light text-sm md:text-base lg:text-lg text-white font-inter"
               title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
             />
           </div>
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-8 md:mt-12 xl:mt-16 text-center">
           <ButtonP title="Read More" />
         </div>
       </Container>

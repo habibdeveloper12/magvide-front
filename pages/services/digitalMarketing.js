@@ -7,7 +7,7 @@ import CreativeSec from "@/components/servicesSec/CreativeSec"
 const digitalMarketing = () => {
   return (
     <Layout>
-        <MarketingBanner />
+        <MarketingBanner />  
         <MarketingServiceSec />
         <MarketingCategory />
         <CreativeSec />

@@ -7,7 +7,7 @@ import ServicesBanner from "@/components/servicesSec/ServicesBanner";
 const index = () => {
   return (
     <Layout>
-      <ServicesBanner />
+      <ServicesBanner /> 
       <OfferSec />
       <CreativeSec />
     </Layout>
