@@ -1,9 +1,12 @@
-import Layout from '@/components/layout/Layout';
+import ContactForm from "@/components/ContactUs/ContactForm";
+import ContactUsBanner from "@/components/ContactUs/ServicesBanner";
+import Layout from "@/components/layout/Layout";
 
 const contactus = () => {
   return (
     <Layout>
-      <h1>Contact Us Page</h1>
+      <ContactUsBanner />
+      <ContactForm />
     </Layout>
   );
 };
