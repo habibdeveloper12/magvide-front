@@ -24,3 +24,10 @@
   height: 100% !important;
   width: 274px !important;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: aliceblue;
+  z-index: 99;
+}

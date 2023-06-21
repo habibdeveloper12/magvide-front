@@ -3,11 +3,10 @@ import Layout from "@/components/layout/Layout";
 import CreativeSec from "@/components/servicesSec/CreativeSec";
 import ServicesBanner from "@/components/servicesSec/ServicesBanner";
 
-
 const index = () => {
   return (
     <Layout>
-      <ServicesBanner /> 
+      <ServicesBanner />
       <OfferSec />
       <CreativeSec />
     </Layout>

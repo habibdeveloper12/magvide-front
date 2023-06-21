@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import Container from './Container';
-import Link from 'next/link';
-import ListItem from './ListItem';
-import List from './List';
-import { FaBars } from 'react-icons/fa';
-import { useEffect, useState } from 'react';
-import { MdKeyboardArrowDown } from 'react-icons/md';
-import SubHeading from './SubHeading';
+import Image from "next/image";
+import Container from "./Container";
+import Link from "next/link";
+import ListItem from "./ListItem";
+import List from "./List";
+import { FaBars } from "react-icons/fa";
+import { useEffect, useState } from "react";
+import { MdKeyboardArrowDown } from "react-icons/md";
+import SubHeading from "./SubHeading";
 
 const Navbar = ({ navbg }) => {
   const [show, setShow] = useState(true);
@@ -20,7 +20,7 @@ const Navbar = ({ navbg }) => {
       }
     }
     scrollWidth();
-    window.addEventListener('resize', scrollWidth);
+    window.addEventListener("resize", scrollWidth);
   }, []);
   return (
     <nav className={navbg}>
