@@ -4,6 +4,8 @@ import Heading from "../layout/Heading";
 import Image from "next/image";
 import ServiceDes from "./ServiceDes";
 import ChooseUs from "./ChooseUs";
+import { Box } from "@chakra-ui/react";
+import BoxSection from "./BoxSection";
 
 const ServiceDetails = () => {
   return (
@@ -41,8 +43,16 @@ const ServiceDetails = () => {
         </div>
       </div>
       <div>
-        <ServiceDes />
-        <ChooseUs />
+        <Box pb={"550px"}>
+          <ServiceDes />
+        </Box>
+        <div className="pt-49">
+          <BoxSection />
+        </div>
+
+        <Box mt={"300px"}>
+          <ChooseUs />
+        </Box>
       </div>
     </div>
   );

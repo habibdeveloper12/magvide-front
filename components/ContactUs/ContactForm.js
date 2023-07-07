@@ -75,7 +75,7 @@ const ContactForm = () => {
                 type="text"
                 {...register("name", { required: true })}
                 placeholder="Write your name"
-                className="input input-bordered input-primary w-full max-w-xs"
+                className="input input-bordered text-left input-primary w-full max-w-xs"
               />
             </div>
             {errors.name && (
@@ -109,7 +109,7 @@ const ContactForm = () => {
                   className="input input-bordered input-primary w-full max-w-xs"
                 />
               </div>
-              <div className="w-80% ml-3 p-0">
+              <div className="w-80% ml-3 sm:ml-0 p-0">
                 <SubHeading
                   className="text-sm md:text-base lg:text-lg xl:text-xl text-primary font-pop font-bold mb-2 "
                   title="Services"
@@ -160,7 +160,7 @@ const ContactForm = () => {
                   className="text-sm md:text-base lg:text-lg xl:text-xl text-primary font-pop font-bold mb-2 ml-3 "
                   title="Hire Us"
                 />
-                <div className="form-control px-4 ml-3 border rounded-md  border-primary text-primary w-full max-w-xs ">
+                <div className="form-control px-4 ml-3 sm:ml-0 border rounded-md  border-primary text-primary w-full max-w-xs ">
                   <div className="input-group px-4 ">
                     <select
                       className="select select-bordered"

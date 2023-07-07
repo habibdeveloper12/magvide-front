@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
-import ButtonP from '../layout/ButtonP';
+import Image from "next/image";
+import Container from "../layout/Container";
+import SubHeading from "../layout/SubHeading";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import ButtonP from "../layout/ButtonP";
 
 const AboutUsSec = () => {
   return (
@@ -25,10 +25,8 @@ const AboutUsSec = () => {
           />
           <Para
             className=" text-sm sm:text-base lg:text-lg text-para font-inter pb-4 md:pb-6 lg:pb-10"
-            title="In our daily life, people usually look for different IT services for that. But from now on, no more worries, 
-            been providing honest service for years. Which is 
-            accurate and acceptable. We provide all kinds of 
-            services. Our service is very good."
+            title="Welcome to Magivde, a leading digital marketing agency that specializes in providing comprehensive solutions to enhance your online presence. With a wide range of services spanning digital marketing, search engine optimization, social media marketing, and web design and development, we are committed to helping businesses thrive in the digital landscape.
+            "
           />
           <ButtonP title="Learn More" />
         </div>

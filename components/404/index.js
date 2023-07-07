@@ -7,7 +7,7 @@ const Component404 = () => {
     <Layout>
       <div className="h-100vh">
         <Link href="/">
-          <img src="Group.png" />
+          <img src="Group.png" width={"80%"} />
         </Link>
       </div>
     </Layout>

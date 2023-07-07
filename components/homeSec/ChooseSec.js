@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
-import SubHeading from '../layout/SubHeading';
+import Image from "next/image";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import SubHeading from "../layout/SubHeading";
 
 const ChooseSec = () => {
   return (
@@ -35,11 +35,14 @@ const ChooseSec = () => {
               <SubHeading
                 className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                  pt-4 pb-2 lg:pt-6 lg:pb-4"
-                title="Branding Stategy"
+                title="Branding Strategy"
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-inter"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title="
+                Branding Strategy
+                Experience the power of our services in transforming your brand into a success story.
+              "
               />
             </div>
             <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
@@ -57,7 +60,9 @@ const ChooseSec = () => {
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-inter"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title="
+                From Leads to Sales: Unlock Your Business's Full Potential with Professional Marketing
+                "
               />
             </div>
             <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
@@ -75,7 +80,9 @@ const ChooseSec = () => {
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-inter"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title=" 
+                Stand out from the crowd with our unique designs that captivate your audience.
+                "
               />
             </div>
             <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
@@ -89,7 +96,8 @@ const ChooseSec = () => {
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-inter"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title="
+                From sales slump to sales superstar – let us fuel your success "
               />
             </div>
           </div>
