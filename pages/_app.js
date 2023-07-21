@@ -5,7 +5,11 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <ChakraProvider>
-        <Component {...pageProps} /> <ScrollToTop smooth />
+        <Component {...pageProps} />{" "}
+        <ScrollToTop
+          smooth
+          component={<img src={"top-up.png"} alt="Custom Image" />}
+        />
       </ChakraProvider>
     </>
   );

@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import SubHeading from "../layout/SubHeading";
 import Heading from "../layout/Heading";
 import Container from "../layout/Container";
 import { useForm } from "react-hook-form";
-import axios from "axios";
 import "react-phone-number-input/style.css";
 import "react-country-dropdown/dist/index.css";
 import PhoneInput from "react-phone-number-input";
 import { ReactCountryDropdown } from "react-country-dropdown";
 import Image from "next/image";
-
+import emailjs from "@emailjs/browser";
+import * as filestack from "filestack-js";
 const ContactForm = () => {
   const {
     register,
@@ -17,48 +17,88 @@ const ContactForm = () => {
 
     formState: { errors },
   } = useForm();
+
+  const [fileUrl, setFileUrl] = useState("");
   const [country, setCountry] = useState("");
   const [value, setValue] = useState();
   const handleSelect = (country) => {
     console.log(country);
     setCountry(country.name);
   };
-  const onSubmit = async (data) => {
-    console.log(data);
-    const formData = new FormData();
-    formData.append("file", data.file[0]);
-    formData.append("name", data.name);
-    formData.append("email", data.email);
-    formData.append("services", data.services);
-    formData.append("budget", data.budget);
-    formData.append("hireOption", data.hireOption);
-    formData.append("websiteURL", data.websiteURL);
-    formData.append("file", data.file);
-    formData.append("zipcode", data.zipcode);
-    formData.append("country", country);
-    formData.append("message", data.message);
-    console.log(formData);
+  const handleFileUpload = async (event) => {
+    const file = event.target.files[0];
+
     try {
-      await axios.post("http://localhost:5000/api/v1/contact", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data", // Set the content type to 'multipart/form-data'
-        },
-      });
-      alert("Message sent successfully!");
+      const client = filestack.init("A3dESBmkSQKnJQlGxqR2Hz");
+      const response = await client.upload(file);
+      const uploadedFileUrl = response.url;
+
+      setFileUrl(uploadedFileUrl);
+    } catch (error) {
+      console.log("File upload error:", error);
+    }
+  };
+  const formRef = useRef(null);
+  const onSubmit = async (data) => {
+    const formData = new FormData();
+    const form = formRef.current;
+    const formDat = {
+      name: data.name,
+      email: data.email,
+      services: data.services,
+      budget: data.budget,
+      hireOption: data.hireOption,
+      stateRegion: undefined,
+      zipcode: data.zipcode,
+      message: data.message,
+      file: fileUrl,
+      websiteURL: data.websiteURL,
+    };
+    formData.append("name", formDat.name);
+    formData.append("email", formDat.email);
+    formData.append("services", formDat.services);
+    formData.append("budget", formDat.budget);
+    formData.append("hireOption", formDat.hireOption);
+    formData.append("stateRegion", formDat.stateRegion);
+    formData.append("zipcode", formDat.zipcode);
+    formData.append("message", formDat.message);
+    formData.append("file", formDat.file);
+    formData.append("websiteURL", formDat.websiteURL);
+
+    console.log(formData);
+    console.log(form);
+
+    try {
+      emailjs
+        .sendForm(
+          "service_rm0t6ot",
+          "template_2k353yw",
+          form,
+          "wvfNu9HNgu_kYZd-L"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("Message sent successfully!");
+          },
+          (error) => {
+            console.log(error.text);
+            alert("An error occurred. Please try again later.");
+          }
+        );
     } catch (error) {
       console.log(error);
       alert("An error occurred. Please try again later.");
     }
   };
-
   return (
     <Container>
       <div className="sm:flex justify-between  sm:px-5 xl:px-0 pt-10 sm:pt-16 md:pt-20 lg:pt-24 sm:pl-6">
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form onSubmit={handleSubmit(onSubmit)} ref={formRef} id="my-form">
           <div className="w-full sm:w-3/4 ">
             <div>
               <SubHeading
-                className="text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+                className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
                 title="Home > Contact us"
               />
               <Heading
@@ -120,9 +160,7 @@ const ContactForm = () => {
                       className="select select-bordered"
                       {...register("services")}
                     >
-                      <option disabled selected>
-                        Any
-                      </option>
+                      <option selected>Any</option>
                       <option> Digital Marketing</option>
                       <option>Web Development</option>
                     </select>
@@ -143,9 +181,7 @@ const ContactForm = () => {
                         className="select select-bordered w-full"
                         {...register("budget")}
                       >
-                        <option disabled selected>
-                          $100-$200
-                        </option>
+                        <option selected>$100-$200</option>
                         <option>$200-$400</option>
                         <option>$400-$600</option>
                         <option>$700-$900</option>
@@ -166,9 +202,7 @@ const ContactForm = () => {
                       className="select select-bordered"
                       {...register("hireOption")}
                     >
-                      <option disabled selected>
-                        Hourly
-                      </option>
+                      <option selected>Hourly</option>
                       <option> Project</option>
                       <option>Monthly</option>
                     </select>
@@ -224,8 +258,8 @@ const ContactForm = () => {
               />
               <input
                 type="file"
+                onChange={handleFileUpload}
                 className="file-input file-input-bordered w-full max-w-xs text-primary border-primary "
-                {...register("file")}
               />
               <p className="my-4">Or paste website URL</p>
               <input

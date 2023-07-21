@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
+import Image from "next/image";
+import Container from "../layout/Container";
+import SubHeading from "../layout/SubHeading";
+import Heading from "../layout/Heading";
+import ProgressBar from "@ramonak/react-progress-bar";
 
 const AboutSkillSec = () => {
   return (
@@ -19,7 +19,7 @@ const AboutSkillSec = () => {
         </div>
         <div className="w-full pt-12 sm:pt-0 sm:w-2/4 sm:pl-6">
           <SubHeading
-            className="text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+            className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="SKILL SET"
           />
           <Heading
@@ -27,38 +27,54 @@ const AboutSkillSec = () => {
             title="We Have A Set Of Skill With 
           High Quality"
           />
-          <div className="mt-6 sm:mt-10 md:mt-4 xl:mt-20 border-b-[3px] w-full border-[#bebbbb] pb-2 flex justify-between relative">
+          <div className="mt-6 sm:mt-10 md:mt-4 xl:mt-20  w-full  flex justify-between relative">
             <SubHeading
               title="Digital Marketing"
               className="text-primary text-base lg:text-lg font-bold"
             />
-            <Para title="85%" className="text-primary text-lg font-medium" />
-            <div className="border-b-[6px] w-[85%] border-[#2FA5FF] absolute left-0 bottom-[-4px] rounded-2xl"></div>
           </div>
-          <div className="mt-6 sm:mt-8 md:mt-12 lg:mt-16 border-b-[3px] w-full border-[#bebbbb] pb-2 flex justify-between relative">
+          <ProgressBar
+            completed={85}
+            className="wrapper"
+            bgColor="#2FA5FF"
+            animateOnRender={true}
+          />
+          <div className="mt-6 sm:mt-8 md:mt-12 lg:mt-16  w-full  pb-2 flex justify-between relative">
             <SubHeading
               title="Creative Services"
               className="text-primary text-base lg:text-lg font-bold"
             />
-            <Para title="85%" className="text-primary text-lg font-medium" />
-            <div className="border-b-[6px] w-[98%] border-[#17BD8D] absolute left-0 bottom-[-4px] rounded-2xl"></div>
           </div>
-          <div className="mt-6 sm:mt-8 md:mt-12 lg:mt-16 border-b-[3px] w-full border-[#bebbbb] pb-2 flex justify-between relative">
+          <ProgressBar
+            className="wrapper"
+            completed={85}
+            bgColor="#17BD8D"
+            animateOnRender={true}
+          />
+          <div className="mt-6 sm:mt-8 md:mt-12 lg:mt-16  w-full pb-2 flex justify-between relative">
             <SubHeading
               title="Web Design & Development"
               className="text-primary text-base lg:text-lg font-bold"
             />
-            <Para title="85%" className="text-primary text-lg font-medium" />
-            <div className="border-b-[6px] w-[96%] border-[#FBAE3D] absolute left-0 bottom-[-4px] rounded-2xl"></div>
           </div>
-          <div className="mt-6 sm:mt-8 md:mt-12 lg:mt-16 border-b-[3px] w-full border-[#bebbbb] pb-2 flex justify-between relative">
+          <ProgressBar
+            className="wrapper"
+            completed={85}
+            bgColor="#FBAE3D"
+            animateOnRender={true}
+          />
+          <div className="mt-6 sm:mt-8 md:mt-12 lg:mt-16  w-full  pb-2 flex justify-between relative">
             <SubHeading
               title="Software & App Development"
               className="text-primary text-base lg:text-lg font-bold"
             />
-            <Para title="85%" className="text-primary text-lg font-medium" />
-            <div className="border-b-[6px] w-[92%] border-[#F54D77] absolute left-0 bottom-[-4px] rounded-2xl"></div>
           </div>
+          <ProgressBar
+            className="wrapper"
+            completed={92}
+            bgColor="#F54D77"
+            animateOnRender={true}
+          />
         </div>
       </div>
     </Container>

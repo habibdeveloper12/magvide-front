@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import Heading from '../layout/Heading';
-import SubHeading from '../layout/SubHeading';
-import Para from '../layout/Para';
+import Image from "next/image";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
+import SubHeading from "../layout/SubHeading";
+import Para from "../layout/Para";
 
 const AboutExpertSec = () => {
   return (
@@ -11,7 +11,7 @@ const AboutExpertSec = () => {
         <div className="px-3 sm:px-5 xl:px-0">
           <div className="w-[100%] sm:w-[85%] md:w-[80%] lg:w-[70%] xl:w-[65%] mx-auto">
             <SubHeading
-              className="text-center text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+              className="text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
               title="EXPERTS"
             />
             <Heading

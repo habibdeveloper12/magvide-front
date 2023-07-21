@@ -7,9 +7,11 @@ import { FaBars } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import SubHeading from "./SubHeading";
+import { useRouter } from "next/router";
 
 const Navbar = ({ navbg }) => {
   const [show, setShow] = useState(true);
+  const router = useRouter();
 
   useEffect(() => {
     function scrollWidth() {
@@ -40,15 +42,23 @@ const Navbar = ({ navbg }) => {
             />
             {show && (
               <List className="text-primary flex flex-col md:flex-row md:justify-end md:gap-x-8 font-pop text-lg mt-2.5 md:mt-0">
-                <Link href="/">
+                <Link
+                  href="/"
+                  className={router.pathname === "/" ? "shadow-lg" : ""}
+                >
                   <ListItem
-                    className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold"
+                    className={`font-bold  text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold`}
                     itemname="Home"
                   />
                 </Link>
 
                 <div className="relative group/item ">
-                  <Link href="/services">
+                  <Link
+                    href="/services"
+                    className={
+                      router.pathname === "/services" ? "shadow-lg" : ""
+                    }
+                  >
                     <ListItem
                       className=" font-bold inline-block lg:inline-block text-sm md:text-base lg:text-lg group/edit border-b-2 border-transparent transition duration-300 ease-in-out group-hover/item:border-b-2 group-hover/item:border-primary"
                       itemname="Services"
@@ -239,13 +249,30 @@ const Navbar = ({ navbg }) => {
                     </div>
                   </div>
                 </div>
-                <Link href="/aboutus">
+                <Link
+                  href="/aboutus"
+                  className={router.pathname === "/aboutus" ? "shadow-lg" : ""}
+                >
                   <ListItem
                     className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold"
                     itemname="About Us"
                   />
                 </Link>
-                <Link href="/contactus">
+
+                <Link
+                  href="/contactus"
+                  className={
+                    router.pathname === "/contactus" ? "shadow-lg" : ""
+                  }
+                  style={{ display: "flex", gap: "5px" }}
+                >
+                  {" "}
+                  <Image
+                    height={"6"}
+                    width={"15"}
+                    src="/contact.png"
+                    alt="logo"
+                  />
                   <ListItem
                     className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold "
                     itemname="Contact Us"

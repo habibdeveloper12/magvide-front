@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import Heading from '../layout/Heading';
+import Image from "next/image";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
 
 const WebBanner = () => {
   return (
@@ -21,7 +21,7 @@ const WebBanner = () => {
             title="WEB DESIGN &"
           />
           <Heading
-            className="text-yellow text-lg sm:text-3xl lg:text-4xl xl:text-6xl  font-bold"
+            className="yellow-gr text-lg sm:text-3xl lg:text-4xl xl:text-6xl  font-bold"
             title=" DEVELOPMENT"
           />
         </div>

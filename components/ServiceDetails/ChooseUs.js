@@ -13,7 +13,7 @@ const ChooseUs = () => {
       <div>
         <div className="w-[75%] md:w-[65%] mx-auto">
           <SubHeading
-            className="text-center text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+            className="text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="WHY CHOOSE US"
           />
           <Heading
@@ -111,7 +111,8 @@ const ChooseUs = () => {
           alignItems={"center"}
           position={"absolute"}
           left={"130px"}
-          top={"-50px"}
+          top={"-80px"}
+          background="linear-gradient(139.27deg, #feda00 0%, #ff9900 93.57%)"
         >
           <Para
             className=" w-[60%] text-sm sm:text-base lg:text-lg text-black font-inter text-left pb-8"

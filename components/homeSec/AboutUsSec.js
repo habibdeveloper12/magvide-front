@@ -16,7 +16,7 @@ const AboutUsSec = () => {
         </div>
         <div className="sm:w-[45%] lg:w-2/4 pl-6">
           <SubHeading
-            className="text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+            className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="ABOUT US"
           />
           <Heading

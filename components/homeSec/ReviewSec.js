@@ -1,12 +1,12 @@
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import { GrNext, GrPrevious } from 'react-icons/gr';
-import Image from 'next/image';
-import Container from '../layout/Container';
-import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
-import ButtonP from '../layout/ButtonP';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import { GrNext, GrPrevious } from "react-icons/gr";
+import Image from "next/image";
+import Container from "../layout/Container";
+import SubHeading from "../layout/SubHeading";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import ButtonP from "../layout/ButtonP";
 
 const ReviewSec = () => {
   function SampleNextArrow(props) {
@@ -70,7 +70,7 @@ const ReviewSec = () => {
       <Container>
         <div className="w-[75%] md:w-[65%] mx-auto">
           <SubHeading
-            className="text-center text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+            className="text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="REVIEWS"
           />
           <Heading

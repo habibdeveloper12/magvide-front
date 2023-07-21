@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import Heading from '../layout/Heading';
-import SubHeading from '../layout/SubHeading';
-import Para from '../layout/Para';
-import ButtonP from '../layout/ButtonP';
+import Image from "next/image";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
+import SubHeading from "../layout/SubHeading";
+import Para from "../layout/Para";
+import ButtonP from "../layout/ButtonP";
 
 const ServiceSec = () => {
   return (
@@ -11,7 +11,7 @@ const ServiceSec = () => {
       <Container>
         <div>
           <SubHeading
-            className="text-center text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+            className="text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="SERVICES"
           />
           <Heading

@@ -27,7 +27,7 @@ const ServiceDetails = () => {
               title="SERVICE "
             />
             <Heading
-              className="text-yellow text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
+              className="yellow-gr text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
               title="DETAILS"
             />
           </div>
@@ -50,7 +50,7 @@ const ServiceDetails = () => {
           <BoxSection />
         </div>
 
-        <Box mt={"300px"}>
+        <Box mt={"100px"}>
           <ChooseUs />
         </Box>
       </div>

@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import Heading from '../layout/Heading';
+import Image from "next/image";
+import Container from "../layout/Container";
+import Heading from "../layout/Heading";
 
 const MarketingBanner = () => {
   return (
@@ -21,7 +21,7 @@ const MarketingBanner = () => {
             title="DIGITAL"
           />
           <Heading
-            className="text-yellow text-xl sm:text-4xl lg:text-6xl xl:text-7xl font-bold"
+            className="yellow-gr text-xl sm:text-4xl lg:text-6xl xl:text-7xl font-bold"
             title=" MARKETING"
           />
         </div>

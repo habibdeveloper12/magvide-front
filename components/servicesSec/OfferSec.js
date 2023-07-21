@@ -1,9 +1,9 @@
-import Container from '../layout/Container';
-import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
-import Image from 'next/image';
-import ButtonP from '../layout/ButtonP';
+import Container from "../layout/Container";
+import SubHeading from "../layout/SubHeading";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import Image from "next/image";
+import ButtonP from "../layout/ButtonP";
 
 const OfferSec = () => {
   return (
@@ -11,7 +11,7 @@ const OfferSec = () => {
       <Container>
         <div className="w-[95%] sm:w-[85%] lg:w-[65%] mx-auto">
           <SubHeading
-            className=" text-center text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+            className=" text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="WHAT WE OFFER"
           />
           <Heading

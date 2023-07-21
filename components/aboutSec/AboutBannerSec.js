@@ -21,7 +21,7 @@ const AboutBannerSec = () => {
         <div className="flex">
           <div className=" w-4/4 sm:w-2/4 flex flex-col justify-center sm:pl-32 ">
             <SubHeading
-              className="text-sm sm:text-base md:text-base lg:text-xl text-yellow font-pop font-bold"
+              className="text-sm sm:text-base md:text-base lg:text-xl yellow-gr font-pop font-bold"
               title="Services Offered by IT Service Companies"
             />
             <Heading

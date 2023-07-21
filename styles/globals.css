@@ -35,3 +35,12 @@
 .slick-arrow {
   display: none !important;
 }
+
+.yellow-gr {
+  background: linear-gradient(139.27deg, #feda00 0%, #ff9900 93.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.scroll-to-top {
+  background-color: transparent !important;
+}

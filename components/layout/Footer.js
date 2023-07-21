@@ -1,55 +1,88 @@
-import { FaFacebookF } from 'react-icons/fa';
+import { FaFacebookF } from "react-icons/fa";
 import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillLinkedin,
-} from 'react-icons/ai';
-import Container from './Container';
-import Heading from './Heading';
-import List from './List';
-import ListItem from './ListItem';
+  AiOutlineMail,
+} from "react-icons/ai";
+import { BsWhatsapp } from "react-icons/bs";
+import Heading from "./Heading";
+import List from "./List";
+import ListItem from "./ListItem";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#151515]">
-      <Container>
-        <div className="flex flex-wrap justify-between gap-y-4  py-10 px-5 sm:py-16 md:py-20 lg:py-24">
+    <div className="bg-[#151515] border-b-2  ">
+      <div className="lg:max-w-container mx-auto  border-b-2 mb-4">
+        <div className="flex flex-wrap justify-between gap-y-4  py-5 px-5 sm:py-16 md:py-10 lg:py-10">
           <div className="w-1/3 sm:w-1/5">
             <div>
-              <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold  font-inter   text-yellow"
-                title="Logo"
-              />
-              <List className="font-inter font-light mt-5 text-sm md:text-base text-white">
-                <ListItem
-                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="New Collection"
-                />
-                <ListItem
-                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="About Us"
-                />
-                <ListItem
-                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Blog"
-                />
-              </List>
+              <Link href="/">
+                <div className="w-[62px] h-[60px] md:w-[82px] md:h-[80px] relative">
+                  <Image fill src="/assets/logo3.png" alt="logo" cover />
+                </div>
+              </Link>
+              <p className="text-white mt-6">
+                In our daily life, people usually look for different IT services
+                for that. But from now on, no more worries, our service has the
+                solution for everything. Read More.....
+              </p>
             </div>
           </div>
           <div className="w-1/3 sm:w-1/5">
             <div>
               <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold  font-inter   text-yellow"
-                title="Program"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold  font-inter   text-yellow"
+                title="Connect Online"
+              />
+              <div className=" flex mt-4 gap-x-2 text-yellow text-3xl d-flex flex-wrap gap-2">
+                <div className="bg-white p-2 rounded-md">
+                  {" "}
+                  <FaFacebookF className="duration-150 ease-in-out  hover:cursor-pointer" />
+                </div>
+                <div className="bg-white p-2 rounded-md">
+                  <AiOutlineTwitter className="duration-150 ease-in-out  hover:cursor-pointer" />
+                </div>
+                <div className="bg-white p-2 rounded-md">
+                  <AiFillInstagram className="duration-150 ease-in-out  hover:cursor-pointer" />
+                </div>
+                <div className="bg-white p-2 rounded-md">
+                  <AiOutlineMail className="duration-150 ease-in-out  hover:cursor-pointer" />
+                </div>
+                <div className="bg-white p-2 rounded-md">
+                  <AiFillLinkedin className="duration-150 ease-in-out  hover:cursor-pointer" />
+                </div>
+                <div className="bg-white p-2 rounded-md">
+                  <BsWhatsapp className="duration-150 ease-in-out  hover:cursor-pointer" />
+                </div>
+              </div>
+            </div>
+            <div></div>
+          </div>
+          <div className="w-1/3 sm:w-1/5">
+            <div>
+              <Heading
+                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold  font-inter   text-yellow"
+                title="Trigger Links"
               />
               <List className="font-inter font-light mt-5 text-sm md:text-base text-white">
                 <ListItem
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Our Programs"
+                  itemname="Career"
                 />
                 <ListItem
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Our Plan"
+                  itemname="Team"
+                />
+                <ListItem
+                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
+                  itemname="Services"
+                />
+                <ListItem
+                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
+                  itemname="Terms and condition"
                 />
               </List>
             </div>
@@ -58,30 +91,7 @@ const Footer = () => {
           <div className="w-1/3 sm:w-1/5">
             <div>
               <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold  font-inter   text-yellow"
-                title="Terms"
-              />
-              <List className="font-inter font-light mt-5 text-sm md:text-base text-white">
-                <ListItem
-                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Our Programs"
-                />
-                <ListItem
-                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Our Plan"
-                />
-                <ListItem
-                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Become a membe"
-                />
-              </List>
-            </div>
-            <div></div>
-          </div>
-          <div className="w-1/3 sm:w-1/5">
-            <div>
-              <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold  font-inter   text-yellow"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold  font-inter   text-yellow"
                 title="Support"
               />
               <List className="font-inter font-light mt-5 text-sm md:text-base  text-white">
@@ -100,33 +110,35 @@ const Footer = () => {
           <div className="w-2/3 sm:w-1/5 mr-auto sm:mr-0">
             <div>
               <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold  font-inter   text-yellow"
-                title="About Us"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold  font-inter   text-yellow"
+                title="Contact Info"
               />
               <List className="font-inter font-light mt-2 sm:mt-5 text-sm md:text-base text-white">
                 <ListItem
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Our Programs"
+                  itemname="Address"
                 />
                 <ListItem
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Our Plan"
+                  itemname="Number"
                 />
                 <ListItem
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Become a membe"
+                  itemname="Email:"
                 />
               </List>
             </div>
           </div>
-          <div className=" flex mt-4 gap-x-2 text-yellow text-2xl">
-            <FaFacebookF className="duration-150 ease-in-out hover:text-white hover:cursor-pointer" />
-            <AiOutlineTwitter className="duration-150 ease-in-out hover:text-white hover:cursor-pointer" />
-            <AiFillInstagram className="duration-150 ease-in-out hover:text-white hover:cursor-pointer" />
-            <AiFillLinkedin className="duration-150 ease-in-out hover:text-white hover:cursor-pointer" />
-          </div>
         </div>
-      </Container>
+      </div>
+      <div className="flex justify-between items-center lg:max-w-container mx-auto border-b-3  pb-3 ">
+        <div>
+          <p className="text-white">2023 All right reserved by Magvide</p>
+        </div>
+        <div>
+          <p className="text-white">Privacy Policy | Sitemap</p>
+        </div>
+      </div>
     </div>
   );
 };

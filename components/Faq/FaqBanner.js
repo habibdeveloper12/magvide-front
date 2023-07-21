@@ -1,8 +1,9 @@
 import Image from "next/image";
+import React from "react";
 import Container from "../layout/Container";
 import Heading from "../layout/Heading";
 
-const ContactUsBanner = () => {
+const FaqBanner = () => {
   return (
     <div className="bg-primaryBg py-20 sm:py-24 md:py-32 lg:py-40 relative">
       <div className="absolute left-0 top-[17px] sm:top-[3px] md:top-0">
@@ -18,11 +19,12 @@ const ContactUsBanner = () => {
         <div className="flex justify-center gap-3 md:gap-4">
           <Heading
             className="text-primary text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
-            title="Contact"
+            title="Frequently Asked Question
+                "
           />
           <Heading
             className="yellow-gr text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
-            title="  Us"
+            title="(FAQ)"
           />
         </div>
       </Container>
@@ -39,4 +41,4 @@ const ContactUsBanner = () => {
   );
 };
 
-export default ContactUsBanner;
+export default FaqBanner;

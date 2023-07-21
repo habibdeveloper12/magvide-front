@@ -55,7 +55,7 @@ const BoxSection = () => {
           <div className="">
             {" "}
             <Heading
-              className="text-yellow text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
+              className="yellow-gr text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
               title="STEP 1"
             />
             <Heading
@@ -69,7 +69,7 @@ const BoxSection = () => {
           </div>
           <div className="">
             <Heading
-              className="text-yellow text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
+              className="yellow-gr text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
               title="STEP 2"
             />
             <Heading
@@ -85,7 +85,7 @@ const BoxSection = () => {
         <div className="flex flex-wrap px-3 sm:px-5 justify-between md:pt-3 lg:pt-6 gap-y-4 sm:gap-y-6 md:px-">
           <div className="bg-white w-[48%] md:w-[41%] lg:w-[30%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
             <Heading
-              className="text-yellow text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
+              className="yellow-gr text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
               title="STEP 4"
             />
             <Heading
@@ -99,7 +99,7 @@ const BoxSection = () => {
           </div>
           <div className="bg-white w-[48%] md:w-[41%] lg:w-[30%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
             <Heading
-              className="text-yellow text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
+              className="yellow-gr text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
               title="STEP 5"
             />
             <Heading
@@ -113,7 +113,7 @@ const BoxSection = () => {
           </div>
           <div className="bg-white w-[48%] md:w-[41%] lg:w-[30%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
             <Heading
-              className="text-yellow text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
+              className="yellow-gr text-center text-xl sm:text-xl md:text-xl lg:text-xl font-bold"
               title="STEP 6"
             />
             <Heading

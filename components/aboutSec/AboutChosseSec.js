@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
+import Image from "next/image";
+import Container from "../layout/Container";
+import SubHeading from "../layout/SubHeading";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
 
 const AboutChosseSec = () => {
   return (
@@ -11,7 +11,7 @@ const AboutChosseSec = () => {
         <div>
           <div className="w-[75%] md:w-[65%] mx-auto">
             <SubHeading
-              className="text-center text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+              className="text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
               title="WHY CHOOSE US"
             />
             <Heading

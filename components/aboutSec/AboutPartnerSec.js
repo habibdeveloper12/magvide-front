@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
-import ButtonP from '../layout/ButtonP';
+import Image from "next/image";
+import Container from "../layout/Container";
+import SubHeading from "../layout/SubHeading";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import ButtonP from "../layout/ButtonP";
 
 const AboutPartnerSec = () => {
   return (
@@ -16,7 +16,7 @@ const AboutPartnerSec = () => {
         </div>
         <div className="w-full sm:w-2/4 sm:pl-6 py-8 sm:py-0">
           <SubHeading
-            className="text-sm md:text-base lg:text-lg xl:text-xl text-yellow font-pop font-bold"
+            className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="WHO WE ARE"
           />
           <Heading

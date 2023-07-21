@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import Container from '../layout/Container';
-import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
-import Para from '../layout/Para';
-import ButtonP from '../layout/ButtonP';
+import Image from "next/image";
+import Container from "../layout/Container";
+import SubHeading from "../layout/SubHeading";
+import Heading from "../layout/Heading";
+import Para from "../layout/Para";
+import ButtonP from "../layout/ButtonP";
 
 const CreativeSec = () => {
   return (
@@ -11,7 +11,7 @@ const CreativeSec = () => {
       <Container>
         <div className="w-[95%] sm:w-[85%] md:w-[75%] lg:w-[65%] xl:w-[70%] mx-auto">
           <SubHeading
-            className="text-center text-sm sm:text-base md:text-lg lg:text-xl text-yellow font-pop font-bold"
+            className="text-center text-sm sm:text-base md:text-lg lg:text-xl yellow-gr font-pop font-bold"
             title="CREATIVE SERVICES"
           />
           <Heading
