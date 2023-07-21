@@ -6,17 +6,12 @@ import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 const AboutMsgSec = () => {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const formRef = useRef(null);
 
-  const onSubmit = (e) => {
+  const onSubmit = () => {
     // e.preventDefault();
-    const formData = new FormData();
+    // const formData = new FormData();
     const form = formRef.current;
     try {
       emailjs

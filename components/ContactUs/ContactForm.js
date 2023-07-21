@@ -57,6 +57,7 @@ const ContactForm = () => {
     formData.append("name", formDat.name);
     formData.append("email", formDat.email);
     formData.append("services", formDat.services);
+    formData.append("country", country);
     formData.append("budget", formDat.budget);
     formData.append("hireOption", formDat.hireOption);
     formData.append("stateRegion", formDat.stateRegion);
