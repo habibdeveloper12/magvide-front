@@ -3,7 +3,6 @@ import ButtonP from "../layout/ButtonP";
 import Container from "../layout/Container";
 import Heading from "../layout/Heading";
 import Para from "../layout/Para";
-import SubHeading from "../layout/SubHeading";
 import Slider from "react-slick";
 
 const Banner = () => {
@@ -19,10 +18,6 @@ const Banner = () => {
       <Container>
         <div className="sm:flex justify-between pt-1 pb-24 sm:pt-0 sm:pb-7 md:pb-0 sm: px-3 sm:px-5">
           <div className="w-[95%] sm:w-2/4 mt-10 mb-6 sm:mb-28 md:mt-16 md:mb-36 lg:mt-20 lg:mb-40">
-            <SubHeading
-              className="text-sm sm:text-base md:text-lg lg:text-xl yellow-gr font-pop font-bold"
-              title="Services Offered by IT Service Companies"
-            />
             <Slider {...settings}>
               <div>
                 <Heading

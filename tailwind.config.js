@@ -21,7 +21,7 @@ module.exports = {
       },
       colors: {
         primary: "#013B94",
-        para: "#8F8E8E",
+        para: "#2B2B2B",
         yellow: "#FEDA00",
         primaryBg: "#F0FBFF",
       },
@@ -36,7 +36,7 @@ module.exports = {
       {
         mytheme: {
           primary: "#013B94",
-          para: "#8F8E8E",
+          para: "#2B2B2B",
           yellow: "#FEDA00",
           primaryBg: "#F0FBFF",
         },
