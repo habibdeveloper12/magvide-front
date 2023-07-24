@@ -1,23 +1,23 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import { GrNext, GrPrevious } from "react-icons/gr";
-import Image from "next/image";
-import Container from "../layout/Container";
-import SubHeading from "../layout/SubHeading";
-import Heading from "../layout/Heading";
-import Para from "../layout/Para";
-import ButtonP from "../layout/ButtonP";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import { GrNext, GrPrevious } from 'react-icons/gr';
+import Image from 'next/image';
+import Container from '../layout/Container';
+import SubHeading from '../layout/SubHeading';
+import Heading from '../layout/Heading';
+import Para from '../layout/Para';
+import ButtonP from '../layout/ButtonP';
 
 const ReviewSec = () => {
   function SampleNextArrow(props) {
     const { style, onClick } = props;
     return (
       <div
-        className=" absolute top-[45%] right-[-10px] !inline-block z-10"
+        className=" absolute top-[45%] right-[-2px] lg:right-[33%] !inline-block z-50"
         style={{ ...style }}
         onClick={onClick}
       >
-        <GrNext className="text-4xl" />
+        <GrNext className="text-3xl" />
       </div>
     );
   }
@@ -25,11 +25,11 @@ const ReviewSec = () => {
     const { style, onClick } = props;
     return (
       <div
-        className=" absolute top-[45%] left-[-40px] !inline-block z-10"
+        className=" absolute top-[45%] left-[-30px] lg:left-[30.5%] !inline-block z-50"
         style={{ ...style }}
         onClick={onClick}
       >
-        <GrPrevious className="text-4xl" />
+        <GrPrevious className="text-3xl" />
       </div>
     );
   }
@@ -79,11 +79,13 @@ const ReviewSec = () => {
               Happy Clients"
           />
         </div>
-        <div className="ml-10">
+        <div className="ml-10 lg:relative">
+            <div className=" hidden lg:block w-[31%] h-[100%] z-40  bg-white/[.7] left-0 absolute"></div>
+            <div className=" hidden lg:block w-[33%] h-[100%] z-40  bg-white/[.7] absolute right-0"></div>
           <Slider {...settings}>
             <div className="max-w-[90%] rounded-xl p-6 shadow-cshadow my-7 mx-1">
               <div className="flex items-center gap-5">
-                <div className="w-[75.5px] h-[75.5px] relative">
+                <div className="w-[75.5px] h-[75.5px] relative ">
                   <Image
                     fill
                     src="/assets/review-image1.png"
@@ -167,7 +169,7 @@ const ReviewSec = () => {
                 <Image
                   fill
                   src="/assets/review-star-image.png"
-                  alt="review-start-image"
+                  alt="review-star-image"
                 />
               </div>
             </div>
@@ -196,7 +198,7 @@ const ReviewSec = () => {
                 <Image
                   fill
                   src="/assets/review-star-image.png"
-                  alt="review-start-image"
+                  alt="review-star-image"
                 />
               </div>
             </div>
