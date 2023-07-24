@@ -31,7 +31,7 @@ const OfferSec = () => {
             <Link href="/services/creativeServices">
 
             <div className="w-[90%] hover:shadow-cshadow2 delay-75 ml-auto shadow-cshadow p-3 sm:p-5 md:p-7 rounded-md relative mt-48 sm:mt-48 lg:mt-52">
-              <div className="w-10 h-10  sm:w-16 sm:h-16 md:w-20 md:h-20  bg-[#17BD8D] flex rounded-[50%] absolute top-[16%] sm:top-[33%] right-[-122px] sm:right-[-97px] md:right-[-137px]">
+              <div className="w-10 h-10  sm:w-16 sm:h-16 md:w-20 md:h-20  bg-gradient-to-r from-[#17BD8D] to-[#FFE53B] flex rounded-[50%] absolute top-[16%] sm:top-[33%] right-[-122px] sm:right-[-97px] md:right-[-137px]">
                 <Para
                   className="text-white font-bold text-base sm:text-xl md:text-2xl mx-auto my-auto"
                   title="02"
@@ -58,7 +58,7 @@ const OfferSec = () => {
             <Link href="/services/softwareDevelopment">
 
             <div className="w-[90%] hover:shadow-cshadow2 delay-75  ml-auto shadow-cshadow p-3 sm:p-5 md:p-7 rounded-md relative mt-32 lg:mt-40">
-              <div className="w-10 h-10   sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#F54D77] flex rounded-[50%] absolute top-[45%] sm:top-[33%] right-[-122px] sm:right-[-97px] md:right-[-137px]">
+              <div className="w-10 h-10   sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-r from-[#FECDA4] to-[#F54D77] flex rounded-[50%] absolute top-[45%] sm:top-[33%] right-[-122px] sm:right-[-97px] md:right-[-137px]">
                 <Para
                   className="text-white font-bold text-base sm:text-xl md:text-2xl mx-auto my-auto"
                   title="04"
@@ -88,7 +88,7 @@ const OfferSec = () => {
             <Link href="/services/digitalMarketing">
 
             <div className="w-[90%] hover:shadow-cshadow2 delay-75  shadow-cshadow p-3 sm:p-5 md:p-7 rounded-md relative mb-28 lg:mb-40">
-              <div className=" w-10 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20  bg-[#219FFF] flex rounded-[50%] absolute  top-[33%] left-[-122px] sm:left-[-98px] md:left-[-137px]">
+              <div className=" w-10 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20  bg-gradient-to-r from-[#00E5FF] to-[#1200FF] flex rounded-[50%] absolute  top-[33%] left-[-122px] sm:left-[-98px] md:left-[-137px]">
                 <Para
                   className="text-white font-bold text-base sm:text-xl md:text-2xl mx-auto my-auto"
                   title="01"
@@ -116,7 +116,7 @@ const OfferSec = () => {
             <Link href="/services/webDesingDev">
 
             <div className="w-[90%] hover:shadow-cshadow2 delay-75  shadow-cshadow p-3 sm:p-5 md:p-7 rounded-md relative">
-              <div className="w-10 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#FBAE3D] flex rounded-[50%] absolute top-[55%]  sm:top-[33%] left-[-122px]  sm:left-[-98px] md:left-[-137px]">
+              <div className="w-10 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-r from-[#FF8EEE] to-[#AD00FF] flex rounded-[50%] absolute top-[55%]  sm:top-[33%] left-[-122px]  sm:left-[-98px] md:left-[-137px]">
                 <Para
                   className="text-white font-bold text-base sm:text-xl md:text-2xl mx-auto my-auto"
                   title="03"
