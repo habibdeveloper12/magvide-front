@@ -6,7 +6,7 @@ import Heading from '../layout/Heading';
 const SoftwareDevBanner = () => {
     return (
         <div className="bg-primaryBg py-20 sm:py-24 md:py-32 lg:py-40 relative">
-          <div className="absolute left-0 top-[13px] sm:top-[3px] md:top-[-5px] lg:top-[-10px] xl:top-20">
+          <div className="absolute left-0 top-[20px] sm:top-[20px] md:top-[30px] lg:top-[40px] xl:top-20">
             <div className="w-[70px] h-[248px] sm:w-[90px] sm:h-[319px] md:w-[120px] md:h-[426px] lg:w-[155px] lg:h-[550px] relative">
               <Image
                 fill
@@ -31,7 +31,7 @@ const SoftwareDevBanner = () => {
               />
             </div>
           </Container>
-          <div className="absolute right-0 top-[19px] sm:top-[24px] md:top-[14px] lg:top-[-24px] xl:top-[92px]">
+          <div className="absolute right-0 top-[50px] sm:top-[81px] md:top-[70px] lg:top-[61px] xl:top-[84px]">
             <div className="w-[90px] h-[210px] sm:w-[110px] sm:h-[257px] md:w-[150px] md:h-[350px] lg:w-[215px] lg:h-[502px] relative">
               <Image
                 fill
