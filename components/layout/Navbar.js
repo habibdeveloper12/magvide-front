@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Container from "./Container";
-import Link from "next/link";
-import ListItem from "./ListItem";
-import List from "./List";
-import { FaBars } from "react-icons/fa";
-import { useEffect, useState } from "react";
-import { MdKeyboardArrowDown } from "react-icons/md";
-import SubHeading from "./SubHeading";
-import { useRouter } from "next/router";
+import Image from 'next/image';
+import Container from './Container';
+import Link from 'next/link';
+import ListItem from './ListItem';
+import List from './List';
+import { FaBars } from 'react-icons/fa';
+import { useEffect, useState } from 'react';
+import { MdKeyboardArrowDown } from 'react-icons/md';
+import SubHeading from './SubHeading';
+import { useRouter } from 'next/router';
 
 const Navbar = ({ navbg }) => {
   const [show, setShow] = useState(true);
@@ -22,7 +22,7 @@ const Navbar = ({ navbg }) => {
       }
     }
     scrollWidth();
-    window.addEventListener("resize", scrollWidth);
+    window.addEventListener('resize', scrollWidth);
   }, []);
   return (
     <nav className={navbg}>
@@ -44,7 +44,7 @@ const Navbar = ({ navbg }) => {
               <List className="text-primary flex flex-col md:flex-row md:justify-end md:gap-x-8 font-pop text-lg mt-2.5 md:mt-0">
                 <Link
                   href="/"
-                  className={router.pathname === "/" ? "shadow-lg" : ""}
+                  className={router.pathname === '/' ? 'shadow-lg' : ''}
                 >
                   <ListItem
                     className={`font-bold  text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold`}
@@ -56,7 +56,7 @@ const Navbar = ({ navbg }) => {
                   <Link
                     href="/services"
                     className={
-                      router.pathname === "/services" ? "shadow-lg" : ""
+                      router.pathname === '/services' ? 'shadow-lg' : ''
                     }
                   >
                     <ListItem
@@ -142,10 +142,12 @@ const Navbar = ({ navbg }) => {
                         </Link>
                       </div>
                       <div className=" w-4/4 sm:w-[45%]  md:w-[50%] lg:w-max sm:pl-5 lg:border-r border-primary lg:pr-5">
-                        <SubHeading
-                          className="text-primary font-pop font-bold text-base md:text-lg pb-2 md:pb-3"
-                          title="CREATIVE SERVICES"
-                        />
+                        <Link href="/services/creativeServices">
+                          <SubHeading
+                            className="text-primary font-pop font-bold text-base md:text-lg pb-2 md:pb-3"
+                            title="CREATIVE SERVICES"
+                          />
+                        </Link>
 
                         <Link href="/service-details">
                           <ListItem
@@ -229,10 +231,13 @@ const Navbar = ({ navbg }) => {
                         </Link>
                       </div>
                       <div className="w-4/4 sm:w-[45%]  md:w-[50%] lg:w-max pr-5 sm:pl-4 lg:pl-0 xl:pl-4">
+                        <Link href="/services/softwareDevelopment">
+                        
                         <SubHeading
                           className="text-primary font-pop font-bold text-base md:text-lg pb-2 md:pb-3"
                           title="SOFTWARE & APP DEVELOPMENT"
                         />
+                        </Link>
                         <Link href="/service-details">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
@@ -251,7 +256,7 @@ const Navbar = ({ navbg }) => {
                 </div>
                 <Link
                   href="/aboutus"
-                  className={router.pathname === "/aboutus" ? "shadow-lg" : ""}
+                  className={router.pathname === '/aboutus' ? 'shadow-lg' : ''}
                 >
                   <ListItem
                     className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold"
@@ -262,14 +267,13 @@ const Navbar = ({ navbg }) => {
                 <Link
                   href="/contactus"
                   className={
-                    router.pathname === "/contactus" ? "shadow-lg" : ""
+                    router.pathname === '/contactus' ? 'shadow-lg' : ''
                   }
-                  style={{ display: "flex", gap: "5px" }}
+                  style={{ display: 'flex', gap: '5px' }}
                 >
-                  {" "}
+                  {' '}
                   <div className="w-[15px] h-[13px] mt-1 md:mt-[6px] lg:mt-[8px]   relative">
-                  <Image fill src="/contact.png" alt="logo" cover />
-
+                    <Image fill src="/contact.png" alt="logo" cover />
                   </div>
                   <ListItem
                     className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold "
