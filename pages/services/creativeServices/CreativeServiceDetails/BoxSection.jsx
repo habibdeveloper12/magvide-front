@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Para from '../layout/Para';
-import Heading from '../layout/Heading';
+import Para from '../../../../components/layout/Para';
+import Heading from '../../../../components/layout/Heading';
 import { Image } from '@chakra-ui/react';
-import Container from '../layout/Container';
+import Container from '../../../../components/layout/Container';
 
 const BoxSection = () => {
   return (
@@ -128,64 +128,62 @@ const BoxSection = () => {
           title="So, there you have it—Magvide's SEM marketing process, served with a side of humor! We believe that a little laughter goes a long way in making the world of digital marketing a more enjoyable and engaging experience. And remember, with Magvide by your side, your SEM journey will be a delightful adventure filled with keywords, ad space battles, and the sweet sound of revenue triumphing over PPC costs. Let's embark on this laughter-filled quest together. "
         />
       </div>
-      <div className="bg-[#F0FBFF] pb-16" >
+      <div className="bg-[#F0FBFF] pb-16">
+        <div className="flex justify-center gap-3 md:gap-4 py-16">
+          <Heading
+            className="text-primary text-3xl sm:text-xl md:text-2xl lg:text-5xl font-bold"
+            title="Our SEM Service "
+          />
+          <Heading
+            className="yellow-gr text-3xl sm:text-xl md:text-2xl lg:text-5xl font-bold"
+            title=" Offerings"
+          />
+        </div>
 
-      <div className="flex justify-center gap-3 md:gap-4 py-16">
-            <Heading
-              className="text-primary text-3xl sm:text-xl md:text-2xl lg:text-5xl font-bold"
-              title="Our SEM Service "
-            />
-            <Heading
-              className="yellow-gr text-3xl sm:text-xl md:text-2xl lg:text-5xl font-bold"
-              title=" Offerings"
-            />
-          </div>
-
-            <Container>
-          <div className='flex flex-wrap gap-y-10 justify-between'>
-
-            <div className='w-[48%] py-10 bg-white shadow-cshadow rounded-md'>
-            <Heading
-              className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-              title="Keyword Quest"
-            />
-            <Para
-              className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
-              title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
-            />
+        <Container>
+          <div className="flex flex-wrap gap-y-10 justify-between">
+            <div className="w-[48%] py-10 bg-white shadow-cshadow rounded-md">
+              <Heading
+                className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+                title="Keyword Quest"
+              />
+              <Para
+                className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
+                title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
+              />
             </div>
-            <div className='w-[48%] py-10 bg-white shadow-cshadow rounded-md'>
-            <Heading
-              className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-              title="Keyword Quest"
-            />
-            <Para
-              className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
-              title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
-            />
+            <div className="w-[48%] py-10 bg-white shadow-cshadow rounded-md">
+              <Heading
+                className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+                title="Keyword Quest"
+              />
+              <Para
+                className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
+                title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
+              />
             </div>
-            <div className='w-[48%] py-10 bg-white shadow-cshadow rounded-md'>
-            <Heading
-              className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-              title="Keyword Quest"
-            />
-            <Para
-              className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
-              title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
-            />
+            <div className="w-[48%] py-10 bg-white shadow-cshadow rounded-md">
+              <Heading
+                className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+                title="Keyword Quest"
+              />
+              <Para
+                className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
+                title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
+              />
             </div>
-            <div className='w-[48%] py-10 bg-white shadow-cshadow rounded-md'>
-            <Heading
-              className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-              title="Keyword Quest"
-            />
-            <Para
-              className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
-              title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
-            />
+            <div className="w-[48%] py-10 bg-white shadow-cshadow rounded-md">
+              <Heading
+                className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+                title="Keyword Quest"
+              />
+              <Para
+                className="  text-center text-sm sm:text-base lg:text-base text-para font-inter py-5 px-14"
+                title="Our intrepid SEM marketers embark on a daring quest to find keywords with search volumes that are larger than life. Armed with their trusty keyword research tools, they dig deep into the vast realms of the internet, unearthing hidden gems that will attract potential customers. It's like panning for gold, only with keyboards instead of pickaxes. "
+              />
             </div>
           </div>
-            </Container>
+        </Container>
       </div>
     </>
   );

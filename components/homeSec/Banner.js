@@ -42,7 +42,7 @@ const Banner = () => {
               <ButtonP title="Get Started" />
             </div>
           </div>
-          <div className="w-[90%] sm:w-2/4 md:mt-16 lg:mt-20">
+          <div className="w-[90%] mx-auto sm:w-2/4 md:mt-16 lg:mt-20">
             <div className="relative  w-[100%] h-[320px] lg:w-[461px] lg:h-[461px] mx-auto my-auto">
               <Image fill src="/home-1.gif" alt="banner-image" />
             </div>

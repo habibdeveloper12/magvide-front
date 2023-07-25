@@ -1,11 +1,11 @@
-import React from "react";
-import SubHeading from "../layout/SubHeading";
+import React from 'react';
+import SubHeading from '../../../../components/layout/SubHeading';
 
-import Para from "../layout/Para";
-import Image from "next/image";
-import Heading from "../layout/Heading";
-import ButtonP from "../layout/ButtonP";
-import Container from "../layout/Container";
+import Para from '../../../../components/layout/Para';
+import Image from 'next/image';
+import Heading from '../../../../components/layout/Heading';
+import ButtonP from '../../../../components/layout/ButtonP';
+import Container from '../../../../components/layout/Container';
 
 const ChooseUs = () => {
   return (
@@ -99,21 +99,19 @@ const ChooseUs = () => {
           title="If you're ready to take your website from a whisper to a BOOM, it's time to join forces with Magvide. We'll be your digital marketing superheroes, fighting the good fight against invisibility and obscurity. Contact us today, and let's make some online magic happen!"
         />
       </div>
-    <Container>
-
-    <div className= " flex flex-wrap w-[100%] items-center justify-between mb-[20px] rounded-2xl p-10 bg-gradient-to-r from-[#FEDA00] to-[#FF9900]">  
+      <Container>
+        <div className=" flex flex-wrap w-[100%] items-center justify-between mb-[20px] rounded-2xl p-10 bg-gradient-to-r from-[#FEDA00] to-[#FF9900]">
           <Para
             className=" w-[60%] text-sm sm:text-base lg:text-lg text-black font-inter text-left pb-8"
             title="If you're ready to take your website from a whisper to a BOOM, it's time to join forces with Magvide. We'll be your digital marketing superheroes, fighting the good fight against invisibility and obscurity. Contact us today, and let's make some online magic happen!"
           />
           <div>
-
-          <ButtonP title={"Submit Now"} />
+            <ButtonP title={'Submit Now'} />
           </div>
-          </div>
-    </Container>
+        </div>
+      </Container>
     </div>
-  ); 
+  );
 };
 
 export default ChooseUs;

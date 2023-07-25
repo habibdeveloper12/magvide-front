@@ -143,37 +143,37 @@ const Navbar = ({ navbg }) => {
                           />
                         </Link>
 
-                        <Link href="/">
+                        <Link href="/services/creativeServices/CreativeServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2 "
                             itemname="GRAPHICS DESIGN"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/creativeServices/CreativeServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
                             itemname="UI&UX DESIGN"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/creativeServices/CreativeServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px]  sm:mb-0 sm:text-xs sm:pb-2 "
                             itemname="MOTION DESIGN"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/creativeServices/CreativeServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px]  sm:mb-0 sm:text-xs sm:pb-2 "
                             itemname="2D & 3D DESIGN"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/creativeServices/CreativeServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2 "
                             itemname="3D ANIMATION"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/creativeServices/CreativeServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2 "
                             itemname="3D MODELING"
@@ -187,37 +187,37 @@ const Navbar = ({ navbg }) => {
                             title="WEB DESIGN & DEVELOPMENT "
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/webDesingDev/webServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2 "
                             itemname="CUSTOM WEBSITE DESIGN"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/webDesingDev/webServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px]  sm:mb-0 sm:text-xs sm:pb-2 "
                             itemname="E-COMMERCE WEBSITE DESIGN"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/webDesingDev/webServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
                             itemname="WORDPRESS WEBSITE DESIGN"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/webDesingDev/webServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
                             itemname="CUSTOM WEBSITE DEVELOPMENT"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/webDesingDev/webServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
                             itemname="E-COMMERCE WEBSITE DEVELOPMENT"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/webDesingDev/webServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
                             itemname="WORDPRESS WEBSITE DEVELOPMENT"
@@ -232,13 +232,13 @@ const Navbar = ({ navbg }) => {
                           title="SOFTWARE & APP DEVELOPMENT"
                         />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/softwareDevelopment/softwareServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
                             itemname="CUSTOM APP DEVELOPMENT"
                           />
                         </Link>
-                        <Link href="/">
+                        <Link href="/services/softwareDevelopment/softwareServiceDetails">
                           <ListItem
                             className=" font-semibold  duration-150 ease-out hover:tracking-wider text-[#1B1B1B] text-[11px] mb-[-6px] sm:mb-0 sm:text-xs sm:pb-2"
                             itemname="CUSTOM SOFTWARE DEVELOPMENT"

@@ -1,14 +1,17 @@
-import React from "react";
-import Container from "../layout/Container";
-import Heading from "../layout/Heading";
-import Image from "next/image";
-import ServiceDes from "./ServiceDes";
-import ChooseUs from "./ChooseUs";
-import { Box } from "@chakra-ui/react";
-import BoxSection from "./BoxSection";
+import React from 'react';
+import Container from '../../../../components/layout/Container';
+import Heading from '../../../../components/layout/Heading';
+import Image from 'next/image';
+import ServiceDes from './ServiceDes';
+import ChooseUs from './ChooseUs';
+import { Box } from '@chakra-ui/react';
+import BoxSection from './BoxSection';
+import Layout from '@/components/layout/Layout';
 
 const ServiceDetails = () => {
   return (
+    <Layout>
+
     <div>
       <div className="bg-primaryBg py-20 sm:py-24 md:py-32 lg:py-40 relative">
         <div className="absolute left-0 top-[17px] sm:top-[3px] md:top-0">
@@ -24,7 +27,7 @@ const ServiceDetails = () => {
           <div className="flex justify-center gap-3 md:gap-4">
             <Heading
               className="text-primary text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
-              title="MARKETING SERVICE "
+              title="SOFTWARE SERVICE "
             />
             <Heading
               className="yellow-gr text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
@@ -50,11 +53,12 @@ const ServiceDetails = () => {
           <BoxSection />
         </div>
 
-        <Box mt={"100px"}>
+        <Box mt={'100px'}>
           <ChooseUs />
         </Box>
       </div>
     </div>
+    </Layout>
   );
 };
 
