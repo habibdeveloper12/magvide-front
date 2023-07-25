@@ -1,45 +1,89 @@
 import React from "react";
 import Heading from "../layout/Heading";
 import Para from "../layout/Para";
-import { Img } from "@chakra-ui/react";
 
 const BoxText7 = () => {
   return (
     <div className="w-[80%]">
-      <Heading
-        className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Custom App Development: Empower Your Business with Tailor-Made Applications"
+       <Heading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[40px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+        title="Magvide Link Building Service ( Off-page SEO) Will Boost UP Sales and Traffic"
       />
       <Para
-        className="text-center text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-8"
-        title="In today's fast-paced digital landscape, having a unique and user-friendly mobile app can be a game-changer for your business. It helps you connect with your target audience and provides a platform to deliver personalized experiences and drive customer engagement. At Magvide, we understand the significance of mobile apps in the success of modern businesses. That's why we specialize in Custom App Development, leveraging our expertise to create bespoke applications that align with your business requirements and goals."
-      />
-      <Img src="blog1.png" />
-      <Heading
-        className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="How Magvide Custom App Developers Work?"
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Not satisfied with the number of sales or traffic even after on-page SEO? Then it's time to take the magvide link blinding service. Link building sounds easy, but it contains so much knowledge, skill, time, and the ability to hunt down the perfect site to get you links. And, of course, you can't do all those work alone. That's where magvide link blinding service jump in and blinds the best link for your site."
       />
       <Para
-        className="text-center mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-8"
-        title="Understanding Your Vision: Our dedicated team of skilled developers and designers takes the time to understand your vision, brand identity, and target audience. We collaborate closely with you to analyze your business needs, user expectations, and industry trends, ensuring that our developed app perfectly encapsulates your vision and resonates with your target market.
-        Tailored Solutions for Enhanced Performance: We believe that one size does not fit all in app development. That's why we follow a personalized approach, tailoring every aspect of the app to align with your unique business needs. From the user interface (UI) and user experience (UX), design to the backend functionality, we ensure that every element is meticulously crafted to deliver a seamless and intuitive app experience.
-        Cutting-Edge Technology: Our team stays updated with industry trends and cutting-edge technologies to provide forward-thinking solutions. Whether you need an app for iOS, Android, or cross-platform compatibility, we have the expertise to leverage the most suitable frameworks, programming languages, and development tools to bring your app to life.
-        Agile Development Methodology: We follow an agile development methodology, breaking down the development process into iterative sprints. This allows for flexibility, collaboration, and continuous feedback, ensuring that your app evolves throughout the development cycle and meets your evolving business needs.
-        Quality Assurance and Testing: To guarantee a flawless user experience, we conduct rigorous quality assurance testing at every stage of development. Our team performs comprehensive testing across multiple devices, screen resolutions, and operating systems to ensure optimal performance, security, and stability of your app.
-        Seamless Deployment and Ongoing Support: Once your app is developed and rigorously tested, we assist with seamless deployment to your chosen app stores or distribution platforms. We provide ongoing support and maintenance, ensuring your app stays up-to-date, secure, and optimized for an ever-evolving digital landscape.
-        "
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Links serve as important signals for search engines, indicating the credibility of your website as a source of information and not just for generating traffic and sales. Their role involves aiding online users in effectively accessing information and navigating web pages to fulfill their requirements."
       />
       <Para
-        className="text-center text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-8"
-        title="In today's digital era, having a custom app developed specifically for your business can provide numerous benefits and advantages. Here's why your business needs Custom App Development:
-        1.	Tailored to Your Business Needs: Off-the-shelf apps may not fully meet your business's unique requirements and objectives. Custom app development allows you to create a tailored solution for your specific challenges, workflows, and goals. It provides a personalized experience for your customers and streamlines internal processes, enhancing efficiency and productivity.
-        2.	Competitive Advantage: A custom app sets your business apart from competitors by offering unique features and functionalities designed specifically for your target audience. It allows you to differentiate yourself in the market, attract more users, and build brand loyalty. Customization allows you to adapt to changing market demands and stay ahead of the competition.
-        3.	Enhanced User Experience: User experience plays a vital role in the success of any app. Custom app development enables you to create a seamless and intuitive user interface, ensuring a positive user experience. By understanding your target audience and their preferences, you can design an app that provides a delightful and engaging experience, increasing customer satisfaction and retention.
-        4.	Scalability and Flexibility: As your business grows, so do your requirements. Custom apps can be designed to scale your business, accommodating increased user demand and expanding functionalities. You can add new features, integrate with other systems, and adapt to changing business needs, ensuring your app remains relevant and effective in the long run.
-        5.	Data Security and Privacy: Custom app development allows you to prioritize data security and privacy based on your specific industry regulations and compliance requirements. You can implement robust security measures and data encryption techniques to safeguard sensitive information, giving your customers peace of mind and establishing trust in your brand.
-        6.	Integration Capabilities: Custom apps can be seamlessly integrated with existing systems and software used within your organization. Whether integrating with customer relationship management (CRM) tools, inventory management systems, or payment gateways, custom app development enables smooth data flow. It eliminates manual data entry, saving time and reducing errors.
-        Ready to take your business to the next level with a custom app that sets you apart? Partner with Magvide, your trusted partner for Custom App Development. Our team of experienced developers is eager to bring your vision to life, delivering a unique and user-friendly mobile app that meets your specific business goals. Contact us today to discuss your project, and let's embark on a journey toward app success. Together, we'll create an app that empowers your business and engages your audience like never before. Don't miss out on the endless possibilities - contact Magvide now!
-        "
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="That's why we can't just use any low-end and without-traffic site to backlinks, right? I mean, what's the point of calling for help to someone when they're struggling to get their ends meet? We don't do that for you. Our link-building service uses the most relevant and quality backlinks to impact search engine rankings. It should be noted that domains with high DA provide greater value to web pages."
+      />
+         <Heading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[40px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+        title="What's So Special About Magvide Link Building Service?"
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="At Magvide, we've got our link-building game on point and are not afraid to show it. Regarding quality control, we're more vigilant than a caffeine-fueled owl on a mission. Let's dive into our link-building service but in a fun way:"
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title='Picture this: we are like a bouncer at an exclusive link-building club, but instead of checking IDs, we are busy curating the guest list. We have got our very own Hall of Shame, which includes notorious troublemakers like guest post farms, resellers lists, PBNs (Private Blog Networks), and even links hacked by the infamous SAPE gang. They can try to sneak in, but we will be there with our metaphorical velvet rope, giving them a firm "Sorry, not tonight!".'
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title='To keep our blacklist up to date, we unleash our trusty web-crawling spiders on the internet. They venture into the dark corners of Google, searching for "guest post sites" and even doing a funky GIF dance on the right-hand side (because who does not like a little GIF fun?). Any suspicious sites they stumble upon immediately make it onto our blacklist. They are secret agents on a mission to protect you from low-quality links!'
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="But wait, there's more! We are not just reactive; we are proactive too. If someone dares to send us an email promising links, we go full-on detective mode. We demand their full list, and with the speed of Sherlock Holmes, we cross-reference it against our blacklist. If any shenanigans are detected, consider those links banished to the deepest abyss of the internet."
+      />
+         <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="And here's the cherry on top: we don't just rely on our web-crawling spiders for updates. No sir! We're on a monthly mission to gather information from various sources to keep our blacklist in tip-top shape. It's like playing a high-stakes game of Whac-A-Mole, but instead of moles, we're smashing any unworthy links that dare to surface."
+      />
+         <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="So, why go through all this hassle, you ask? Simple! We're passionate about delivering only the crème de la crème of links to our clients. Like the link-building knights in shining armor, we fight off the dragons of low-quality content and shady practices. No other link-building service goes to such lengths to protect you from the perils of the digital realm."
+      />
+         <Heading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[40px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+        title="How Magvide Link Builders Do Their Jobs?"
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Regarding link-building, we're like a team of superheroes armed with keyboards and a lot of wits. We don't just build links; we craft digital masterpieces that would make Michelangelo jealous."
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="First, we'll sit down with you, armed with our metaphorical thinking caps and a steaming cup of coffee (or tea if that's your thing). We'll dive deep into your website's needs, goals, and aspirations. Think of us as digital therapists, ready to uncover your website's hidden potential and give it the boost it deserves."
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="With our capes flowing in the wind, we'll set out to find the perfect link opportunities. Our link-slinging experts will search high and low, combing through the vast expanse of the internet like treasure-hunting pirates. We'll scout for websites aligning with your brand, values, and target audience. No stone shall be left unturned, no corner unexplored!"
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Once we've found those golden link prospects, we don our persuasive hats (yes, we have those, too) and craft compelling outreach messages. We're like smooth-talking diplomats, except our mission, is to convince website owners that linking to your site is the best thing since sliced bread. We'll use our charm, expertise, and maybe even a well-timed pun to win them over. Who can resist the power of witty wordplay, right?"
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="But our job doesn't end there. We're not just one-trick ponies. We'll keep a watchful eye on your links, making sure they stay healthy and happy. We're like overprotective parents, constantly checking up on them and nurturing their growth. If a link starts acting up, we'll swoop in faster than a speeding bullet to fix any issues and keep your website's SEO in tip-top shape."
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="And remember, we're not just a link-building service; we're your trusty sidekicks throughout this adventure. We'll provide you with regular reports and updates, keeping you in the loop and giving you the peace of mind of knowing your website is in the hands of link-building superheroes"
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="So, whether you need links that pack a punch or links that can make your competitors quake in their virtual boots, Magvide is here to save the day. We're the link-building champions you've been waiting for, armed with humor, expertise, and an unwavering commitment to helping your website soar to new heights"
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="At Magvide, we take pride in our humor-infused approach to policy explanations. We're serious about link-building, but who says we can't have a chuckle along the way? Join us in our quest for top-notch links, and let's make the internet a fun and reliable place, one blacklist at a time."
       />
     </div>
   );

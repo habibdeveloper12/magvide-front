@@ -1,83 +1,157 @@
 import React from "react";
 import Heading from "../layout/Heading";
 import Para from "../layout/Para";
+import SubHeading from "../layout/SubHeading";
 
 const BoxText5 = () => {
   return (
     <div className="w-[80%]">
-      <Heading
-        className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Magvide Google Analytics Service Will Turn Data Into Profit"
+         <Heading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+        title="Social Media Marketing Services"
       />
       <Para
-        className="text-center text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-8"
-        title="
-        Google Analytics is the most powerful and important tool to learn what's going on in your website or business. Is it making a profit or just standing there doing nothing? However, if you are a noob to this google analytics thing, those numbers will go up above your head. And you may think those are just numbers. Hate to bring it to. It's not just a number. That's when magvide google analytics service comes along to turn those numbers into a way to make more profit.
-
-
-        "
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="As of 2023, approximately 4.9 billion individuals are utilizing social media out of the approximately 8 billion people worldwide. This is a large number. So, how can you build your brand if you don't use social media marketing to make them aware of your business? You can't."
       />
-      <Heading
-        className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Why Your Business Needs A Google Analytics Service?
-
-        "
-      />
-
       <Para
-        className="text-center text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-8"
-        title="Let me entertain you with a humorous take on why every business needs Google Analytics services.
-
-        Picture this: running a business without Google Analytics is like driving blindfolded in a bumper car maze filled with invisible walls. You're bound to crash into things without knowing what went wrong or how to improve.
-        
-        But fear not, dear entrepreneur! That's where Google Analytics swoops in, like a superhero with a cape made of data. The trusty sidekick shines a spotlight on your website's performance, revealing secrets that even Sherlock Holmes would envy.
-        
-        Imagine you're a bakery owner named Betty, slaving away in the kitchen to create mouthwatering pastries. You may think your sugary creations are irresistible, but how do you know if your website visitors feel the same way? That's where Google Analytics struts in, armed with a notepad and a monocle, ready to uncover the truth.
-        
-        With Google Analytics, you'll get a front-row seat to the magic show of data. It'll tell you who's visiting your website, where they're coming from, and even their favorite treat (figuratively speaking). You'll know if they prefer your donuts over your éclairs or if your croissants are causing a stampede of cravings.
-        
-        But wait, there's more; Google Analytics isn't just about satisfying your curiosity; it's a powerful tool for boosting your business. It provides insights into how visitors interact with your website. It's like having an undercover agent reporting back on which pages make people go ooh and which make them go meh.
-        
-        Let's say you discover visitors spend more time drooling over your Instagram-worthy cakes than on your bread section. With this newfound knowledge, you can spice things up by showcasing your bread in a way that would make a loaf blush. More engagement means more dough in your pocket, my friend.
-        
-        And here's the cherry on top: Google Analytics helps you track your marketing efforts. It reveals which campaigns bring in customers and which are as effective as shouting your specials into a tornado. You'll know if your Facebook ads get more clicks than a compulsive pen-clicker during an exam.
-        
-        So, my entrepreneurial friend, if you want to be a baking genius and avoid blindly stumbling through the desert maze, enlist the help of Google Analytics. It's like having a personal data whisperer who can transform your business into a well-oiled cookie-making machine.
-        Remember, with Google Analytics by your side, you'll be baking up success and leaving your competition in the flour-covered dust.
-        
-        
-        
-        "
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="The statistics also indicate that a significant portion of internet users and individuals globally use social media platforms, with over two-thirds and one in three, respectively. According to a report by Global WebIndex, social media users spend an average of two hours and 24 minutes daily on multiple platforms and messaging apps."
       />
-      <Heading
-        className=" text-center text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="How Magvide Google Analytics Conculter Works?
-
-        "
-      />
-
       <Para
-        className="text-center text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-8"
-        title="At Magvide, our team of Google Analytics consultants takes data analysis to a whole new level, and we do it with a touch of humor. Because, let's face it, diving into website analytics can sometimes feel like exploring a mysterious jungle.
-
-        Picture our consultants wearing pith helmets, armed with magnifying glasses and a sense of adventure as they embark on their data-driven expeditions. They fearlessly navigate through the vast terrain of Google Analytics, like intrepid explorers on a quest for hidden insights.
-        But it's not just their fearless attitude that sets them apart; our consultants also have a knack for injecting humor into their work. They don't just analyze data; they bring it to life with witty anecdotes and clever analogies.
-        
-        When faced with complex data sets, our consultants are known to compare them to a Rubik's Cube or a complicated recipe. They'll say, Untangling this web of data is like trying to solve a Rubik's Cube blindfolded. But fear not; we've got the skills to crack the colorful code!
-        
-        And discussing website traffic, they might exclaim, Wow, your website had more visitors than a penguin convention. Time to figure out why they shuffled in and how to make them stay.
-        Our consultants understand that analytics can be overwhelming, so they break it down into bite-sized pieces, using humor to make it more digestible. They'll say, Think of your website as a party and the data as your guests. Let's analyze who's dancing on the dance floor and who's just hanging out at the punch bow.
-        
-        They might even throw in a few well-timed jokes or puns to lighten the mood in meetings. They know that laughter can help relieve the stress of analyzing complex data and make the process more enjoyable.
-        
-        But make no mistake; behind the humor, our Google Analytics consultants are serious experts. They have an in-depth understanding of the tool, and their ultimate goal is to help you make data-driven decisions to optimize your online presence.
-        
-        So, suppose you're ready to embark on a data-driven adventure with a side of humor. In that case, Magvide's Google Analytics consultants are here to guide you through the analytics jungle, armed with laughter and insights.
-        
-        
-        
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Magvide offers social media marketing services that aim to promote brands and attract and engage with potential customers. The process involves partnering with influencers, creating original content, and employing marketing strategies to encourage action."
+      />
+      <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="You cant grab people's attention with boring 90's style posters or pictures. You need to entertain them with trending topics. Will you do all the work? Of course not. That's our job. Our social media marketing services will do all the work and keep gathering customers for you. You can be busy just doing quality full products."
+      />
+         <Heading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+        title="Why Social Media Marketing is Important?"
+      />
+        <Para
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Why Social Media Marketing is Important? Let's Dive into the Wonderful World of Social Shenanigans!"
+      />
+        <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Picture this: You're at a party, surrounded by people having a grand ol' time. They're laughing, sharing stories, and enjoying themselves to the max. Meanwhile, you're stuck in a corner, sipping your soda, feeling about as popular as a pineapple pizza at a pizza lovers' convention. Ouch!"
+      />
+        <Para
+        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Well, my friend, that's what happens when you ignore the power of social media marketing. It's like showing up to a party with a bag of stale chips while everyone else is feasting on gourmet appetizers. You're missing out on all the fun, the connections, and the opportunities to make your brand shine like a disco ball on New Year's Eve.
         "
       />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
+        title="But fear not! Here are a few reasons why social media marketing is the life of the digital party:"
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
+        title='"Be Heard or Be a Mime" - Visibility'
+      />
+        <Para
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Social media is where cool kids hang out these days. It's like the hippest neighborhood in town, buzzing with activity and packed with potential customers. If you're not there, it's like being stuck in the suburbs with no one to hear your brilliant jokes or appreciate your amazing dance moves. Trust us; you don't want to be a mime in the digital world."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
+        title='"Rocket-Boost Your Reach" - The Sky the Limit'
+      />
+        <Para
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Remember those cheesy infomercials that promised to make you a millionaire overnight? Social media marketing has a similar effect (minus the cheesiness). You can skyrocket your brand's reach to the stars with the right strategies. It's like having your own rocket ship ready to take you to new horizons of fame, success, and virtual high-fives."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
+        title='"Dance with Your Target Audience" - Get in Sync'
+      />
+        <Para
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Social media platforms are like massive dance floors where people from all walks of life come together to groove. By joining the party, you can tap into the rhythm of your target audience, understand their needs, and show off your moves (figuratively speaking, unless you're a breakdancer on the side). It's all about building relationships, creating connections, and busting out some killer content that resonates with your tribe."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='"Flex Your Brand Muscles" - You are the Superhero'
+      />
+        <Para
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Social media marketing gives you the power to shape your brand's image and tell your story in a way that would make even Marvel superheroes envious. You can showcase your strengths, highlight your uniqueness, and sprinkle some personality like confetti at a celebration. It's all about standing out in a sea of mediocrity and showing the world why you're the superhero they've been waiting for."
+      />
+        <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="So there you have it, my friend. Social media marketing is the party you don't want to miss. It's where you can strut your stuff, make connections, and transform your brand into the life of the digital shindig. Don't be a wallflower in the corner—grab your social media cape, put on your dancing shoes, and get ready to rock the online world like nobody's watching (but trust us, they will be!)."
+      />
+           <Heading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+        title="How We Do Social Media Marketing?"
+      />
+           <Para
+        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
+        title="Welcome to Magvida, your go-to digital agency for top-notch Social Media Marketing Services. We're here to give your brand a powerful online presence and help you connect with your target audience in meaningful and engaging ways. Curious about how we work our social media marketing magic? Allow us to break it down for you:"
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='1.	Strategy Session:'
+      />
+         <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="We start by getting to know your brand inside out. Our team will sit with you to understand your goals, target audience, brand voice, and unique selling points. This session helps us craft a tailored social media strategy that aligns perfectly with your business objectives."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='2.	Audience Research: '
+      />
+         <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="We delve deep into social media to identify your target audience. By analyzing demographics, interests, and online behavior, we gain valuable insights that allow us to create content that resonates with your ideal customers. Understanding your audience is key to delivering the right messages to the right people at the right time."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='3.	Content Creation: '
+      />
+         <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="Our creative wizards will work their magic to produce captivating and shareable content that showcases your brand's personality. From engaging posts and eye-catching visuals to entertaining videos and compelling blog articles, we'll ensure your social media feeds are brimming with content that captivates your audience and leaves a lasting impression."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='4.	Community Engagement:  '
+      />
+         <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="Building a loyal and engaged community is at the heart of our social media strategy. We'll actively interact with your audience, respond to comments and messages, and foster meaningful conversations. By nurturing these relationships, we create a strong brand community that advocates for your business and drives organic growth."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='5.	Ad Campaigns: Sometimes '
+      />
+         <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="Sometimes, a little boost is needed to reach a wider audience. Our social media advertising gurus will design and execute targeted ad campaigns that maximize your reach, increase brand awareness, and drive conversions. We'll continuously monitor and optimize your campaigns to ensure you get the best return on investment."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='6.	Performance Tracking: '
+      />
+         <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="We believe in data-driven decision-making. Our analytical wizards will track the performance of your social media campaigns, providing you with detailed insights and reports. We'll measure key metrics, such as engagement, reach, website traffic, and conversions, to gauge the effectiveness of our strategies and make informed adjustments along the way."
+      />
+        <SubHeading
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
+        title='7.	Ongoing Optimization: '
+      />
+         <Para
+        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="The world of social media is ever-evolving, and we're always up for the challenge. Our team stays ahead of the curve by monitoring industry trends, algorithm changes, and emerging platforms. We'll adapt our strategies accordingly, ensuring your brand stays relevant and thrives in the dynamic social media landscape."
+      />
+         <Para
+        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
+        title="At Magvida, we're not just about likes and followers but about building meaningful connections between your brand and your audience. Our Social Media Marketing Services are designed to help your business flourish digitally. So, why wait? Let's embark on this exciting social media journey together. Contact us today, and let's make some social media magic happen!"
+      />
+
     </div>
   );
 };

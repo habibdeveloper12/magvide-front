@@ -43,7 +43,7 @@ const ServiceDetails = () => {
         </div>
       </div>
       <div>
-        <Box pb={"550px"}>
+        <Box>
           <ServiceDes />
         </Box>
         <div className="pt-49">
