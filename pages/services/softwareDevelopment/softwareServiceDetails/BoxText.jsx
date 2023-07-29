@@ -1,108 +1,69 @@
 import React from 'react';
-import Heading from '../../../../components/layout/Heading';
-import Para from '../../../../components/layout/Para';
-import { Img } from '@chakra-ui/react';
-import SubHeading from '../../../../components/layout/SubHeading';
+import BlogHeading from '@/components/layout/BlogHeading';
+import BlogPara from '@/components/layout/BlogPara';
+import BlogPara2 from '@/components/layout/BlogPara2';
 
 const BoxText = () => {
   return (
-    <div className="w-[80%]">
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="SEARCH ENGINE OPTIMAIZATION(SEO)"
+    <div className="w-[100%]">
+      <BlogHeading title="Custom App Development: Empower Your Business with Tailor-Made Applications" />
+      <BlogPara title="In today's fast-paced digital landscape, having a unique and user-friendly mobile app can be a game-changer for your business. It helps you connect with your target audience and provides a platform to deliver personalized experiences and drive customer engagement. At Magvide, we understand the significance of mobile apps in the success of modern businesses. That's why we specialize in Custom App Development, leveraging our expertise to create bespoke applications that align with your business requirements and goals." />
+
+      <BlogHeading title="How Magvide Custom App Developers Work?" />
+      <BlogPara2
+        title="Understanding Your Vision:  "
+        title2="Our dedicated team of skilled developers and designers takes the time to understand your vision, brand identity, and target audience. We collaborate closely with you to analyze your business needs, user expectations, and industry trends, ensuring that our developed app perfectly encapsulates your vision and resonates with your target market."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="SEO lives everywhere and in every place. When you search for something on Google or any other platform, some best looking or best services come up to you, right? That just doesn't happen itself. That's the game of search engine optimization. SEO services work in a certain way to make your services pop-ups when someone searching for related services to your business. That's how business and blog sites make millions of dollars each day\month\year. You can't achieve that much revenue if you can't crack the SEO codes."
+      <BlogPara2
+        title="Tailored Solutions for Enhanced Performance"
+        title2="We believe that one size does not fit all in app development. That's why we follow a personalized approach, tailoring every aspect of the app to align with your unique business needs. From the user interface (UI) and user experience (UX), design to the backend functionality, we ensure that every element is meticulously crafted to deliver a seamless and intuitive app experience."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-8"
-        title="Even you reading our page is a magic of SEO. We assist search engines in comprehending this content, our SEO service worth, and alignment with related keywords. This foundation works naturally, and boom! We are at your door. Easy right? Not really. But you don't need to worry about all those if you hire us for SEO services. You may ask, why us? Umm, I mean, If we are now in front of you when you need SEO services, then our SEO experts can surely make your business pop up on your customer's field at the right time and right places too."
+      <BlogPara2
+        title="Cutting-Edge Technology: "
+        title2="Our team stays updated with industry trends and cutting-edge technologies to provide forward-thinking solutions. Whether you need an app for iOS, Android, or cross-platform compatibility, we have the expertise to leverage the most suitable frameworks, programming languages, and development tools to bring your app to life."
       />
-      <Img src="blog1.png" />
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="How Magvide SEO Experts Works For A Susseccfull SEO Work:"
+      <BlogPara2
+        title="Agile Development Methodology: "
+        title2="We follow an agile development methodology, breaking down the development process into iterative sprints. This allows for flexibility, collaboration, and continuous feedback, ensuring that your app evolves throughout the development cycle and meets your evolving business needs."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="1.	Listen to Your  Vision"
+      <BlogPara2
+        title="Quality Assurance and Testing: "
+        title2="To guarantee a flawless user experience, we conduct rigorous quality assurance testing at every stage of development. Our team performs comprehensive testing across multiple devices, screen resolutions, and operating systems to ensure optimal performance, security, and stability of your app."
       />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Our experts don't just take orders and start working on your project. Our experts sit down with you and listen to your vision carefully and passionately. Cause we value your passion. That's why Firstly, we take time to understand your vision and then work according to your vision and make it a reality."
+      <BlogPara2
+        title="Seamless Deployment and Ongoing Support: "
+        title2="Once your app is developed and rigorously tested, we assist with seamless deployment to your chosen app stores or distribution platforms. We provide ongoing support and maintenance, ensuring your app stays up-to-date, secure, and optimized for an ever-evolving digital landscape."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="2.	Keyword Research"
+      <BlogHeading title="Why Does Your Business Need Custom App Development?" />
+      <BlogPara
+        title="In today's digital era, having a custom app developed specifically for your business can provide numerous benefits and advantages. Here's why your business needs Custom App Development:"
       />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="After understanding your business, now it's time to understand Google and how Google works for your business. We analyze commonly searched terms and customer search habits through various keyword tools to find the best terms for your business's growth."
+      <BlogPara2
+        title="1.	Tailored to Your Business Needs: "
+        title2="Off-the-shelf apps may not fully meet your business's unique requirements and objectives. Custom app development allows you to create a tailored solution for your specific challenges, workflows, and goals. It provides a personalized experience for your customers and streamlines internal processes, enhancing efficiency and productivity."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="3.	Look Thorugh Your Competitive"
+      <BlogPara2
+        title="2.	Competitive Advantage: "
+        title2="A custom app sets your business apart from competitors by offering unique features and functionalities designed specifically for your target audience. It allows you to differentiate yourself in the market, attract more users, and build brand loyalty. Customization allows you to adapt to changing market demands and stay ahead of the competition."
       />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="No matter what you do, someone will always compete with you. That's why analyzing your competitors' strategies is crucial to make your business stand out. Our SEO team can help you identify your company's strengths and navigate the competitive landscape of your industry effectively. This approach will give you an edge in the market."
+      <BlogPara2
+        title="3.	Enhanced User Experience: "
+        title2="User experience plays a vital role in the success of any app. Custom app development enables you to create a seamless and intuitive user interface, ensuring a positive user experience. By understanding your target audience and their preferences, you can design an app that provides a delightful and engaging experience, increasing customer satisfaction and retention."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="4.	Page Load Speed"
+      <BlogPara2
+        title="4.	Scalability and Flexibility"
+        title2="As your business grows, so do your requirements. Custom apps can be designed to scale your business, accommodating increased user demand and expanding functionalities. You can add new features, integrate with other systems, and adapt to changing business needs, ensuring your app remains relevant and effective in the long run."
       />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="After making all the efforts and attracting customers to your business page. If your page takes forever to load, then your customers will run back at the same speed. Our SEO experts are very much aware of this and take this matter very seriously in our SEO service."
+      <BlogPara2
+        title="5.	Data Security and Privacy: "
+        title2="Custom app development allows you to prioritize data security and privacy based on your specific industry regulations and compliance requirements. You can implement robust security measures and data encryption techniques to safeguard sensitive information, giving your customers peace of mind and establishing trust in your brand."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="5.	Make Your Site User Friendly"
+      <BlogPara2
+        title="6.	Integration Capabilities: "
+        title2="Custom apps can be seamlessly integrated with existing systems and software used within your organization. Whether integrating with customer relationship management (CRM) tools, inventory management systems, or payment gateways, custom app development enables smooth data flow. It eliminates manual data entry, saving time and reducing errors."
       />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Customers don't like complicated things. The more you make things easy for customers, the more they order. We will make your site user-friendly. So, they insist on being confessed they place an order."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="6.	We will monitor Your Site"
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Our SEO services don't just work; we look back and see results. We closely monitor the performance of your website by thoroughly analyzing data collected from Google Analytics and Search Console. These metrics showcase how your site is performing and expose any existing setbacks or new opportunities. While it may not be a crystal ball, it remains a trustworthy source of information that you can rely on. If the result isn't up to the mark, you apply new techniques, formate, or change our strategy."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="7.	Plan B"
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="If we see your website needs to be fixed according to the plan, then our SEO service comes with plan B. First, our SEO experts will develop a comprehensive marketing plan that clearly outlines the goals, expected outcomes, and completion time. Then, we will prioritize critical aspects during the first month to achieve immediate results."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="8.	SEO Optimize Content"
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="In today's world, content is king. You can sell anything if you choose your words wisely. And our SEO service provider knows it very well. That's why we have talented content writers whose words can increase sales."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="9.	Up to Date With All the New Trends And Updates"
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Our SEO optimization strategies consistently adapt to the latest algorithm updates and market trends. We understand the ever-changing nature of search engines and the industry's evolving demands. With our proactive approach, you can trust that your website will always maintain a top-ranking position on search results. Our SEO team is dedicated to making necessary adjustments and keeping you updated on your campaign progress at all times."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="10.	Execute All the Work"
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Then we apply all those work and optimize your online presence with the SOMP by enhancing your web pages and site structure. We also manage your business listings and use a multi-channel approach, such as social media and third-party websites, to boost your SEO outcomes."
+      <BlogPara
+        title="Ready to take your business to the next level with a custom app that sets you apart? Partner with Magvide, your trusted partner for Custom App Development. Our team of experienced developers is eager to bring your vision to life, delivering a unique and user-friendly mobile app that meets your specific business goals. Contact us today to discuss your project, and let's embark on a journey toward app success. Together, we'll create an app that empowers your business and engages your audience like never before. Don't miss out on the endless possibilities - contact Magvide now!"
       />
     </div>
   );

@@ -5,8 +5,8 @@ import Image from 'next/image';
 import ServiceDes from './ServiceDes';
 import ChooseUs from './ChooseUs';
 import { Box } from '@chakra-ui/react';
-import BoxSection from './BoxSection';
 import Layout from '@/components/layout/Layout';
+import BoxSectionForSoftware from './BoxSectionForSoftware';
 
 const ServiceDetails = () => {
   return (
@@ -27,7 +27,7 @@ const ServiceDetails = () => {
           <div className="flex justify-center gap-3 md:gap-4">
             <Heading
               className="text-primary text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
-              title="SOFTWARE SERVICE "
+              title="WEB SERVICE "
             />
             <Heading
               className="yellow-gr text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
@@ -48,9 +48,9 @@ const ServiceDetails = () => {
       <div>
         <Box>
           <ServiceDes />
-        </Box>
+        </Box> 
         <div className="pt-49">
-          <BoxSection />
+          <BoxSectionForSoftware />
         </div>
 
         <Box mt={'100px'}>
