@@ -1,157 +1,68 @@
-import React from 'react';
-import Heading from '../../../../components/layout/Heading';
-import Para from '../../../../components/layout/Para';
-import SubHeading from '../../../../components/layout/SubHeading';
+import BlogHeading from "@/components/layout/BlogHeading";
+import BlogPara from "@/components/layout/BlogPara";
+import BlogPara2 from "@/components/layout/BlogPara2";
+import React from "react";
+
 
 const BoxText5 = () => {
   return (
-    <div className="w-[80%]">
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Social Media Marketing Services"
+    <div className="w-[100%]">
+         <BlogHeading
+        title="Take your branding to the next level with the 3d modeling services of magvide"
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="As of 2023, approximately 4.9 billion individuals are utilizing social media out of the approximately 8 billion people worldwide. This is a large number. So, how can you build your brand if you don't use social media marketing to make them aware of your business? You can't."
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="The statistics also indicate that a significant portion of internet users and individuals globally use social media platforms, with over two-thirds and one in three, respectively. According to a report by Global WebIndex, social media users spend an average of two hours and 24 minutes daily on multiple platforms and messaging apps."
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Magvide offers social media marketing services that aim to promote brands and attract and engage with potential customers. The process involves partnering with influencers, creating original content, and employing marketing strategies to encourage action."
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="You cant grab people's attention with boring 90's style posters or pictures. You need to entertain them with trending topics. Will you do all the work? Of course not. That's our job. Our social media marketing services will do all the work and keep gathering customers for you. You can be busy just doing quality full products."
-      />
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Why Social Media Marketing is Important?"
-      />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Why Social Media Marketing is Important? Let's Dive into the Wonderful World of Social Shenanigans!"
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Picture this: You're at a party, surrounded by people having a grand ol' time. They're laughing, sharing stories, and enjoying themselves to the max. Meanwhile, you're stuck in a corner, sipping your soda, feeling about as popular as a pineapple pizza at a pizza lovers' convention. Ouch!"
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Well, my friend, that's what happens when you ignore the power of social media marketing. It's like showing up to a party with a bag of stale chips while everyone else is feasting on gourmet appetizers. You're missing out on all the fun, the connections, and the opportunities to make your brand shine like a disco ball on New Year's Eve.
+      <BlogPara
+        title="Welcome to Magvide's 3D Modeling Extravaganza!
+        At Magvide, we take digital marketing to a whole new dimension with our mind-blowing 3D modeling service. Get ready to buckle up and embark on a journey where pixels come alive, and imagination knows no bounds. Our team of creative wizards will turn your wildest dreams into stunning three-dimensional masterpieces, all while sprinkling a dash of humor along the way. Because let's face it, who said digital marketing has to be serious and boring?
         "
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="But fear not! Here are a few reasons why social media marketing is the life of the digital party:"
+         <BlogHeading
+        title="What Exactly Is This 3D Modeling Madness All About? "
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title='"Be Heard or Be a Mime" - Visibility'
+        <BlogPara
+        title="Well, imagine giving your brand a virtual makeover that would make even the most stylish celebrities jealous. Our talented team will sculpt, shape, and mold your ideas into visually captivating 3D models, leaving your audience in awe. We've got you covered, from product designs that pop out of the screen to jaw-dropping animations that bring stories to life."
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Social media is where cool kids hang out these days. It's like the hippest neighborhood in town, buzzing with activity and packed with potential customers. If you're not there, it's like being stuck in the suburbs with no one to hear your brilliant jokes or appreciate your amazing dance moves. Trust us; you don't want to be a mime in the digital world."
+        <BlogPara
+        title="But hold on tight because this isn't your ordinary 3D modeling service. Our team of 3D enthusiasts knows that laughter is the secret ingredient that can take your brand from 'meh' to 'yeah!' Whether it's a quirky character animation or a clever visual gag, we'll inject humor into your 3D models, making them stand out in the digital realm."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title='"Rocket-Boost Your Reach" - The Sky the Limit'
+        <BlogPara
+        title="And guess what? Our 3D modeling service isn't just for the tech-savvy wizards out there. We believe in making the impossible possible, including making 3D modeling accessible to everyone. So, whether you're a small business owner, a startup entrepreneur, or a unicorn in disguise, we'll guide you through the magical world of 3D modeling with our expertise and a touch of humor along the way.
+        "
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Remember those cheesy infomercials that promised to make you a millionaire overnight? Social media marketing has a similar effect (minus the cheesiness). You can skyrocket your brand's reach to the stars with the right strategies. It's like having your own rocket ship ready to take you to new horizons of fame, success, and virtual high-fives."
+        <BlogHeading
+     
+        title="Magvide 3D Modeling Service Offers:"
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title='"Dance with Your Target Audience" - Get in Sync'
+
+        <BlogPara
+        title="At Magvide, we offer an array of 3D modeling services that will transport your brand to a whole new dimension. Our team of skilled artisans combines technical prowess with artistic finesse to create stunning 3D models that will leave a lasting impression on your audience. So, fasten your seatbelts and get ready to explore the magical world of our 3D modeling services!"
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Social media platforms are like massive dance floors where people from all walks of life come together to groove. By joining the party, you can tap into the rhythm of your target audience, understand their needs, and show off your moves (figuratively speaking, unless you're a breakdancer on the side). It's all about building relationships, creating connections, and busting out some killer content that resonates with your tribe."
+        <BlogPara2
+        title="1.	Product Visualization: "
+        title2="Want to showcase your products in all their three-dimensional glory? Our 3D modeling experts will bring your products to life, allowing your customers to interact with them virtually. From detailed renderings to immersive visual experiences, we'll ensure your products stand out."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title='"Flex Your Brand Muscles" - You are the Superhero'
+        <BlogPara2
+        title="2.	Architectural Visualization: "
+        title2="If you're in the construction or real estate industry, our 3D modeling services can help you visualize architectural designs like never before. We'll transform blueprints into realistic 3D models, giving your clients a sneak peek into their future spaces. From interior layouts to exterior landscapes, we'll create visual wonders that will make jaws drop."
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Social media marketing gives you the power to shape your brand's image and tell your story in a way that would make even Marvel superheroes envious. You can showcase your strengths, highlight your uniqueness, and sprinkle some personality like confetti at a celebration. It's all about standing out in a sea of mediocrity and showing the world why you're the superhero they've been waiting for."
+        <BlogPara2
+        title="3.	Character Modeling: "
+        title2="Need captivating characters for your video game, animation, or marketing campaign? Look no further! Our team specializes in creating lifelike and expressive 3D character models that will steal the spotlight. Whether it's a heroic protagonist, a mischievous mascot, or a charming spokesperson, we'll bring your characters to life with meticulous detail."
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="So there you have it, my friend. Social media marketing is the party you don't want to miss. It's where you can strut your stuff, make connections, and transform your brand into the life of the digital shindig. Don't be a wallflower in the corner—grab your social media cape, put on your dancing shoes, and get ready to rock the online world like nobody's watching (but trust us, they will be!)."
+        <BlogPara2
+        title="4.	Animation and Motion Graphics: "
+        title2="Our mesmerizing 3D animations and motion graphics take your storytelling to new heights. From eye-catching logo animations to dynamic visual effects, we'll add movement and excitement to your brand. Get ready to dazzle your audience with captivating visuals that will make them say, 'Wow!'"
       />
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="How We Do Social Media Marketing?"
+        <BlogPara2
+        title="5.	Virtual Reality (VR) and Augmented Reality (AR): "
+        title2="Ready to dive into the world of immersive experiences? Our 3D modeling services extend to virtual reality and augmented reality applications. We'll create interactive 3D models that can be experienced through VR headsets or AR devices, making your brand come alive in ways you never thought possible."
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Welcome to Magvida, your go-to digital agency for top-notch Social Media Marketing Services. We're here to give your brand a powerful online presence and help you connect with your target audience in meaningful and engaging ways. Curious about how we work our social media marketing magic? Allow us to break it down for you:"
+        <BlogPara
+        title="At Magvide, we believe that 3D modeling is more than just a service – it's a gateway to unlocking limitless creative possibilities. Our team is committed to delivering exceptional quality, attention to detail, and a touch of awe-inspiring magic in every project we undertake."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title="1.	Strategy Session:"
+        <BlogPara
+        title="So, whether you're looking to showcase your products, visualize architectural designs, bring characters to life, or create captivating animations, our 3D modeling services have got you covered. Let's embark on a journey together and transform your brand into a three-dimensional wonderland that will leave a lasting impression. Contact Magvide today and let the 3D adventures begin!"
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="We start by getting to know your brand inside out. Our team will sit with you to understand your goals, target audience, brand voice, and unique selling points. This session helps us craft a tailored social media strategy that aligns perfectly with your business objectives."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title="2.	Audience Research: "
-      />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="We delve deep into social media to identify your target audience. By analyzing demographics, interests, and online behavior, we gain valuable insights that allow us to create content that resonates with your ideal customers. Understanding your audience is key to delivering the right messages to the right people at the right time."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title="3.	Content Creation: "
-      />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="Our creative wizards will work their magic to produce captivating and shareable content that showcases your brand's personality. From engaging posts and eye-catching visuals to entertaining videos and compelling blog articles, we'll ensure your social media feeds are brimming with content that captivates your audience and leaves a lasting impression."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title="4.	Community Engagement:  "
-      />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="Building a loyal and engaged community is at the heart of our social media strategy. We'll actively interact with your audience, respond to comments and messages, and foster meaningful conversations. By nurturing these relationships, we create a strong brand community that advocates for your business and drives organic growth."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title="5.	Ad Campaigns: Sometimes "
-      />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="Sometimes, a little boost is needed to reach a wider audience. Our social media advertising gurus will design and execute targeted ad campaigns that maximize your reach, increase brand awareness, and drive conversions. We'll continuously monitor and optimize your campaigns to ensure you get the best return on investment."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title="6.	Performance Tracking: "
-      />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="We believe in data-driven decision-making. Our analytical wizards will track the performance of your social media campaigns, providing you with detailed insights and reports. We'll measure key metrics, such as engagement, reach, website traffic, and conversions, to gauge the effectiveness of our strategies and make informed adjustments along the way."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-4 text-xl sm:text-xl md:text-base lg:text-lg font-bold font-pop"
-        title="7.	Ongoing Optimization: "
-      />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="The world of social media is ever-evolving, and we're always up for the challenge. Our team stays ahead of the curve by monitoring industry trends, algorithm changes, and emerging platforms. We'll adapt our strategies accordingly, ensuring your brand stays relevant and thrives in the dynamic social media landscape."
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter"
-        title="At Magvida, we're not just about likes and followers but about building meaningful connections between your brand and your audience. Our Social Media Marketing Services are designed to help your business flourish digitally. So, why wait? Let's embark on this exciting social media journey together. Contact us today, and let's make some social media magic happen!"
-      />
-    </div>
+          </div>
   );
 };
 

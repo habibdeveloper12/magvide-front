@@ -1,6 +1,4 @@
 import React from 'react';
-import Para from '../layout/Para';
-import SubHeading from '../layout/SubHeading';
 import BlogHeading from '../layout/BlogHeading';
 import BlogPara from '../layout/BlogPara';
 import BlogPara2 from '../layout/BlogPara2';

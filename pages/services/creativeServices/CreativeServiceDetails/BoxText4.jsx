@@ -1,67 +1,96 @@
-import React from 'react';
-import Heading from '../../../../components/layout/Heading';
-import Para from '../../../../components/layout/Para';
+import BlogHeading from "@/components/layout/BlogHeading";
+import BlogPara from "@/components/layout/BlogPara";
+import BlogPara2 from "@/components/layout/BlogPara2";
+import BlogSubHeading from "@/components/layout/BlogSubHeading";
+import React from "react";
 
-const BoxText4 = () => {
+const BoxText4 = () => { 
   return (
-    <div className="w-[80%]">
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="2X-3X Your Sales With Our E-Commerce SEO Service"
+    <div className="w-[100%]">
+    <BlogHeading
+        title="Take a Step Forward In Marketing With Magvide 2D & 3D Animation Service."
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Most People don't like to go out shopping anymore. They like to have everything on their hands while sating on their couch. They make their shopping decision while scrolling down on an e-commerce site. And in order to pop up on your customer page at the right time, you need to crack the e-commerce seo codes. The E-commerce SEO service at magvide will help you rank 1 on every e-commerce platform and increase your sales."
+      <BlogPara
+        title="Lights, camera, animation! At Magvide, we bring your wildest ideas to life with our 2D and 3D animation services, and we promise to sprinkle them with a pinch of humor to keep you entertained throughout the journey."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title=" Digital commerce is blurring the lines between traditional commerce. Online shopping accounts for 63 percent of all shopping occasions. E-commerce SEO is the only way to crack down the 63% of people down and collect revenue from them."
+      <BlogPara
+        title="Why settle for the ordinary when you can have the extraordinary? Our talented team of animators is masters of their craft, ready to take your concept and transform it into a mesmerizing animated masterpiece. Whether you're looking to create captivating characters, vibrant worlds, or mind-bending visual effects, we've got you covered."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="If you want to make  6 figure revenue in a month or daily even then, you can't neglect that 63%. You can't make your brand value only focusing on 37%. You need to focus on all the customers equally. Only then can you become a business torque. Our E-Commerce SEO will make your journey a lot easier."
+         <BlogHeading
+        title="Our 2D Animation Services:"
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="We will track down your lackest competitor unique and makes better content, url, structure, titles, headings, interlinking, and body than them. Which will help your business rank in the top 1 in versions of keywords. We would make sure customers will be filled with only your business."
+   
+        <BlogPara2
+        title="1.	Character Animation: "
+        title2="We breathe life into characters, making them relatable and engaging through fluid movements, expressions, and interactions."
       />
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Now, Let's Talk About How E-Commerce SEO Works:"
+        <BlogPara2
+        title="2.	Motion Graphics"
+        title2=" Our skilled motion graphics artists create dynamic visuals, combining typography, illustrations, and effects to convey complex concepts in a visually appealing way."
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Imagine your e-commerce website is a charming little lemonade stand in a bustling digital marketplace. You've got the best lemonade around, but how will people find you if your stand is hidden behind a mountain of other stands? That's where e-commerce SEO swoops in like a superhero!"
+        <BlogPara2
+        title="3.	Explainer Videos: "
+        title2=" We specialize in creating concise and engaging explainer videos that simplify complex ideas, processes, or products, making them easily understandable for your audience."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="First, you need to optimize your website for search engines. It's like making your lemonade stand shiny and eye-catching. Use relevant keywords in your product descriptions, page titles, and URLs. Don't go overboard and stuff your content with keywords like stuffing a lemon into a watermelon — it won't fool anyone."
+        <BlogPara2
+        title="4.	Whiteboard Animation: "
+        title2="Utilizing the popular whiteboard animation style, we create captivating videos visually illustrating concepts, stories, or educational content."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Next, make sure your website is user-friendly. Nobody wants to buy lemonade from a stand where the cups keep falling off the counter, or the sign is upside down. Ensure your website loads quickly, is mobile-friendly, and is easy to navigate. It's all about creating a seamless customer experience. And remember, the customer is always right, even if they ask for a slice of pizza instead of lemonade.
+            <BlogHeading
+        title="Our 3D Animation Services:"
+      />
+        <BlogPara2
+        title="1.	Product Visualization: "
+        title2="We can showcase your products in a realistic and immersive 3D environment, highlighting their features, functionality, and benefits."
+      />
+        <BlogPara2
+        title="2.	Architectural Visualization: "
+        title2="Our 3D animation expertise extends to architectural visualization, where we create stunning walkthroughs, flyovers, and renderings of architectural designs."
+      />
+        <BlogPara2
+        title="3.	Character Animation: "
+        title2="Our 3D character animation brings digital characters to life, conveying emotions, movements, and interactions that resonate with your audience."
+      />
+        <BlogPara2
+        title="4.	Visual Effects (VFX): "
+        title2="We can enhance your videos or films with seamless visual effects, adding an extra layer of realism and impact to your storytelling."
+      />
+        <BlogSubHeading
+        title="2D & 3D Animation Process Magvide Animator Follow:"
+      />
+        <BlogPara
+        title="At Magvide, we follow a fun and efficient process to bring your 2D and 3D animation projects to life. Here's a sneak peek into our animation process, sprinkled with a touch of humor:
         "
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Let's sprinkle some links onto your website like a lemon zest garnish. Build quality backlinks by getting other reputable websites to link to yours. It's like having lemonade enthusiasts vouch for your stand, saying, 'Hey, this lemonade is the real deal!' Just avoid spammy links that come from shady sources, as they'll leave a sour taste in the search engine's mouth."
+        <BlogPara2
+        title="Idea Explosion - "
+        title2="We start by collaborating with you to understand your vision and gather all the creative ingredients needed for your animation masterpiece. We brainstorm, exchange ideas, and let our imaginations run wild. Think of it as a brainstorming session fueled by caffeine and endless comedic one-liners."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Speaking of taste, let's give your lemonade stand a sweet social media presence. Share engaging content, run promotions, and interact with your customers. It's like hosting a lemonade party online, where everyone gets a virtual glass and has a jolly good time."
+        <BlogPara2
+        title="Character Creation - "
+        title2=" Once we have a solid concept, it's time to design the stars of your animation: the characters. Our talented artists sculpt unique, lovable characters that steal the spotlight and tickle your funny bone. Prepare to meet some unforgettable, larger-than-life personalities."
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Lastly, keep an eye on your competition. Spy on them like a detective! Analyze their strategies, see what keywords they're targeting, and identify areas where you can stand out (pun intended). Just remember, imitation may be the sincerest form of flattery, but in the world of e-commerce, it's all about adding your unique flavor."
+        <BlogPara2
+        title="Script Shenanigans - "
+        title2="With characters in hand, we develop a script that will leave your audience in stitches. We carefully craft hilarious dialogue, comedic timing, and unexpected plot twists that will keep viewers on the edge of their seats or rolling on the floor with laughter."
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="So there you have it, e-commerce SEO with a twist of humor. Remember, optimizing your online store is like mastering the art of making the perfect lemonade. Keep it fresh and tasty, and stand tall among the digital crowd. Now, go out there and squeeze the most out of your e-commerce SEO efforts."
+        <BlogPara2
+        title="Animation Magic - "
+        title2="Here's where the magic happens. Our team of skilled animators, armed with their digital wands (a.k.a. animation software), start breathing life into your characters. They meticulously animate each movement, gesture, and expression, ensuring that the humor shines through in every frame. It's like watching a dance party where the characters showcase their smooth moves and funny antics."
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="So, don't wait anymore. The more you wait, the more far your competitor will go and capture all the market. Take magvide e-commerce SEO service and crack down all the customer in down and helps you gather your desirable revenue."
+        <BlogPara2
+        title="Soundtrack Sorcery - "
+        title2="Animation without sound is like a joke without a punchline. Our audio wizards add the perfect sound effects and background music to enhance the comedic timing and create an immersive experience. We may even throw in some catchy tunes that will get stuck in your head for days. Don't say we didn't warn you."
       />
+        <BlogPara2
+        title="Review and Refine - "
+        title2="We invite you to join us for a viewing party once the initial animation is complete. We gather your feedback, listen to your laughter (or lack thereof), and make necessary adjustments to ensure every humorous moment lands perfectly. We're all about refining our craft and making your audience captivated by your brand."
+      />
+        <BlogPara
+        title="So, if you're ready to embark on an animation adventure filled with laughter, unforgettable characters, and comedic brilliance, let Magvide be your guide. Our 2D and 3D animation process ensures a fun and engaging experience from start to finish, leaving you with an animated gem that will captivate everyone. Let's bring your ideas to life, one humorous frame at a time!"
+      />
+       
+        
     </div>
   );
 };
