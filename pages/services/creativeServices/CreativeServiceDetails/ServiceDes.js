@@ -50,17 +50,7 @@ const ServiceDes = () => {
     <div className="my-9">
       <Tabs>
         <Flex flexWrap={{ lg: 'nowrap', base: 'wrap' }} position="relative">
-          {/* <Image
-            src="https://cdn.enochdev.com/pluto-fund/chain-shape.png"
-            alt="shape"
-            position="absolute"
-            top="10%"
-            left="0"
-            right="0"
-            margin="auto"
-            zIndex="0"
-            maxW="100%"
-          /> */}
+         
           <Box
             bg="#FFFFF"
             minW={{ lg: '500px', base: '100%' }}

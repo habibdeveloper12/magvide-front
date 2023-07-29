@@ -89,7 +89,7 @@ const ChooseUs = () => {
         </div>
       </div>
 
-      <div className="w-[95%] sm:w-[90%] md:w-[100%] lg:w-[70%] mx-auto mt-24 mb-14">
+      <div className="w-[95%] sm:w-[90%] md:w-[100%] lg:w-[70%] mx-auto mt-8 md:mt-24 mb-6 md:mb-14">
         <Heading
           className=" text-center text-primary py-2 sm:py-3 md:py-4  lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bold font-pop"
           title="Ready to Make Some Noise Online?"
@@ -101,9 +101,9 @@ const ChooseUs = () => {
       </div>
     <Container>
 
-    <div className= " flex flex-wrap w-[100%] items-center justify-between mb-[20px] rounded-2xl p-10 bg-gradient-to-r from-[#FEDA00] to-[#FF9900]">  
+    <div className= " flex flex-wrap w-[95%] lg:w-[90%] xl:w-[100%] items-center mx-auto justify-between mb-4 sm:mb-[20px] rounded-2xl p-4 sm:p-10 bg-gradient-to-r from-[#FEDA00] to-[#FF9900]">  
           <Para
-            className=" w-[60%] text-sm sm:text-base lg:text-lg text-black font-inter text-left pb-8"
+            className=" w-[100%] sm:w-[60%] text-sm sm:text-base lg:text-lg text-black font-inter text-left pb-8"
             title="If you're ready to take your website from a whisper to a BOOM, it's time to join forces with Magvide. We'll be your digital marketing superheroes, fighting the good fight against invisibility and obscurity. Contact us today, and let's make some online magic happen!"
           />
           <div>

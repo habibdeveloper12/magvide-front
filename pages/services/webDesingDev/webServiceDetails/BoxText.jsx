@@ -8,7 +8,7 @@ const BoxText = () => {
   return (
     <div className="w-[80%]">
       <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
+        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[30px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
         title="SEARCH ENGINE OPTIMAIZATION(SEO)"
       />
       <Para

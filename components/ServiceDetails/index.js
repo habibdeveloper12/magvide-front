@@ -42,7 +42,7 @@ const ServiceDetails = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div >
         <Box>
           <ServiceDes />
         </Box>
@@ -50,7 +50,7 @@ const ServiceDetails = () => {
           <BoxSection />
         </div>
 
-        <Box mt={"100px"}>
+        <Box mt={{base:"50px", md:"100px"}}>
           <ChooseUs />
         </Box>
       </div>
