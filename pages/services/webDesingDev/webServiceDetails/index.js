@@ -5,12 +5,14 @@ import Image from 'next/image';
 import ServiceDes from './ServiceDes';
 import ChooseUs from './ChooseUs';
 import { Box } from '@chakra-ui/react';
-import BoxSection from './BoxSection';
 import Layout from '@/components/layout/Layout';
+import BoxSectionForWeb from './BoxSectionForWeb';
 
 const ServiceDetails = () => {
   return (
     <Layout>
+
+    <div>
       <div className="bg-primaryBg py-20 sm:py-24 md:py-32 lg:py-40 relative">
         <div className="absolute left-0 top-[17px] sm:top-[3px] md:top-0">
           <div className="w-[70px] h-[248px] sm:w-[90px] sm:h-[319px] md:w-[120px] md:h-[426px] lg:w-[155px] lg:h-[550px] relative">
@@ -46,15 +48,16 @@ const ServiceDetails = () => {
       <div>
         <Box>
           <ServiceDes />
-        </Box>
+        </Box> 
         <div className="pt-49">
-          <BoxSection />
+          <BoxSectionForWeb />
         </div>
 
         <Box mt={'100px'}>
           <ChooseUs />
         </Box>
       </div>
+    </div>
     </Layout>
   );
 };

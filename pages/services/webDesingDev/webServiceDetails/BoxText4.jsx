@@ -1,66 +1,83 @@
-import React from 'react';
-import Heading from '../../../../components/layout/Heading';
-import Para from '../../../../components/layout/Para';
+import BlogHeading from "@/components/layout/BlogHeading";
+import BlogPara from "@/components/layout/BlogPara";
+import BlogPara2 from "@/components/layout/BlogPara2";
+import React from "react";
 
-const BoxText4 = () => {
+const BoxText4 = () => { 
   return (
-    <div className="w-[80%]">
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="2X-3X Your Sales With Our E-Commerce SEO Service"
+    <div className="w-[100%]">
+    <BlogHeading
+        title="Tell Your Vision To Magvide Custom Website Development Service, and We Will Make It True"
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Most People don't like to go out shopping anymore. They like to have everything on their hands while sating on their couch. They make their shopping decision while scrolling down on an e-commerce site. And in order to pop up on your customer page at the right time, you need to crack the e-commerce seo codes. The E-commerce SEO service at magvide will help you rank 1 on every e-commerce platform and increase your sales."
+      <BlogPara
+        title="Do you have a vision for your business site, but someone else is actually making it come true? Then you have gone to the wrong agency. Magvide custom website development service will not only listen to your vision but also will work to make it comes real."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title=" Digital commerce is blurring the lines between traditional commerce. Online shopping accounts for 63 percent of all shopping occasions. E-commerce SEO is the only way to crack down the 63% of people down and collect revenue from them."
+      <BlogPara
+        title="We understand that your website is more than just an online presence; it's a powerful tool representing your brand, engaging your audience, and driving your business forward. That's why our team of skilled developers combines technical expertise with creative flair to create a website that looks stunning and performs flawlessly."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="If you want to make  6 figure revenue in a month or daily even then, you can't neglect that 63%. You can't make your brand value only focusing on 37%. You need to focus on all the customers equally. Only then can you become a business torque. Our E-Commerce SEO will make your journey a lot easier."
+      <BlogPara
+        title="With our Custom Website Development Service, we take the time to truly understand your business goals, target audience, and desired functionalities. Whether you need a robust e-commerce platform, a dynamic content management system, or a unique web application, our development wizards are up to the task."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="We will track down your lackest competitor unique and makes better content, url, structure, titles, headings, interlinking, and body than them. Which will help your business rank in the top 1 in versions of keywords. We would make sure customers will be filled with only your business."
+         <BlogHeading
+        title="What does Magvide Custom Website Development Service Have to Offer?"
       />
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Now, Let's Talk About How E-Commerce SEO Works:"
+   
+        <BlogPara
+        title="At Magivde, our Custom Website Development Service is like a magical potion brewed with the perfect blend of creativity, technical expertise, and a sprinkle of unicorn dust. We're here to bring your digital dreams to life and create a website that will leave your audience spellbound. So, grab your wizard hat, and let's explore the enchanting elements of our service:"
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Imagine your e-commerce website is a charming little lemonade stand in a bustling digital marketplace. You've got the best lemonade around, but how will people find you if your stand is hidden behind a mountain of other stands? That's where e-commerce SEO swoops in like a superhero!"
+         <BlogPara2
+        title="We don't believe in cookie-cutter websites. Our team of web "
+        title2="We don't believe in cookie-cutter websites. Our team of web sorcerers will work closely with you to understand your business objectives, target audience, and unique requirements. We'll then weave a custom solution that perfectly aligns with your needs and sets your brand apart."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="First, you need to optimize your website for search engines. It's like making your lemonade stand shiny and eye-catching. Use relevant keywords in your product descriptions, page titles, and URLs. Don't go overboard and stuff your content with keywords like stuffing a lemon into a watermelon — it won't fool anyone."
+         <BlogPara2
+        title="2.	Captivating Design"
+        title2="Our design wizards will create a visually stunning website that will make heads turn faster than a magic trick. From eye-catching layouts to captivating graphics and enchanting color schemes, we'll ensure your website leaves a lasting impression and reflects your brand's personality."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Next, make sure your website is user-friendly. Nobody wants to buy lemonade from a stand where the cups keep falling off the counter, or the sign is upside down. Ensure your website loads quickly, is mobile-friendly, and is easy to navigate. It's all about creating a seamless customer experience. And remember, the customer is always right, even if they ask for a slice of pizza instead of lemonade.
-        "
+         <BlogPara2
+        title="3.	Seamless Functionality: "
+        title2="A website should be more than just a pretty face; it needs to perform like a well-rehearsed magic act. Our developers will use their technical expertise to build a website that not only looks great but also functions flawlessly. Whether you need e-commerce capabilities, interactive features, or custom functionalities, we've got the spell to make it happen."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Let's sprinkle some links onto your website like a lemon zest garnish. Build quality backlinks by getting other reputable websites to link to yours. It's like having lemonade enthusiasts vouch for your stand, saying, 'Hey, this lemonade is the real deal!' Just avoid spammy links that come from shady sources, as they'll leave a sour taste in the search engine's mouth."
+         <BlogPara2
+        title="4.	Responsive and Intuitive: "
+        title2="In this era of multiple devices, your website needs to be as flexible as a contortionist. Our development team will ensure that your website is responsive and optimized for a seamless user experience across desktops, tablets, and smartphones. We'll make navigation a breeze, keeping your visitors engaged and coming back for more."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Speaking of taste, let's give your lemonade stand a sweet social media presence. Share engaging content, run promotions, and interact with your customers. It's like hosting a lemonade party online, where everyone gets a virtual glass and has a jolly good time."
+       <BlogHeading
+        title=" How the Magvide Custom Website Development process unfolds:"
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Lastly, keep an eye on your competition. Spy on them like a detective! Analyze their strategies, see what keywords they're targeting, and identify areas where you can stand out (pun intended). Just remember, imitation may be the sincerest form of flattery, but in the world of e-commerce, it's all about adding your unique flavor."
+        <BlogPara2
+        title="1.	Discovery and Planning: "
+        title2="We kick off the process by delving deep into your business. We learn about your objectives, target audience, and desired features. Our team collaborates closely with you to identify the core functionalities and design elements that will set your website apart."
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="So there you have it, e-commerce SEO with a twist of humor. Remember, optimizing your online store is like mastering the art of making the perfect lemonade. Keep it fresh and tasty, and stand tall among the digital crowd. Now, go out there and squeeze the most out of your e-commerce SEO efforts."
+        <BlogPara2
+        title="2.	Design and User Experience: "
+        title2="Our skilled designers work hand in hand with our developers to create an intuitive and visually appealing user experience. We ensure that the design aligns with your brand aesthetics while optimizing for easy navigation and engaging user interactions. The result is a website that captivates your audience and keeps them coming back for more."
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="So, don't wait anymore. The more you wait, the more far your competitor will go and capture all the market. Take magvide e-commerce SEO service and crack down all the customer in down and helps you gather your desirable revenue."
+        <BlogPara2
+        title="3.	Development and Coding: "
+        title2="Our developers then work their magic, translating the design into functional code. They build a robust and scalable website that performs seamlessly across devices and browsers using the latest web technologies and coding best practices. We pay meticulous attention to detail to ensure your website is optimized for speed, security, and search engine visibility."
+      />
+        <BlogPara2
+        title="4.	Integration and Customization: "
+        title2=" If you require third-party integrations or custom functionalities, we seamlessly integrate them into your website. Whether it's integrating payment gateways, APIs, CRM systems, or creating custom plugins, our team has the expertise to make it happen. We ensure that all integrations work harmoniously, providing a seamless user experience."
+      />
+        <BlogPara2
+        title="5.	Content and SEO Optimization: "
+        title2="We understand the importance of content in engaging your audience and boosting search engine rankings. Our content specialists work closely with you to create compelling, SEO-friendly content that aligns with your brand's voice. We optimize your website's structure, meta tags, and keywords to enhance its visibility and improve organic search rankings."
+      />
+        <BlogPara2
+        title="6.	Testing and Quality Assurance: "
+        title2=" Before your website goes live, we conduct rigorous testing to ensure it performs flawlessly. We check for responsiveness, functionality, compatibility, and security to provide a seamless experience for your visitors. Our quality assurance team meticulously examines every aspect to ensure a user-friendly, bug-free website."
+      />
+        <BlogPara2
+        title="7.	Deployment and Launch: "
+        title2=" Once the testing is complete and you are satisfied with the final product, we will assist you in deploying the website to your desired hosting environment. We ensure a smooth transition and provide any necessary support during the launch phase."
+      />
+        <BlogPara2
+        title="8.	Ongoing Support and Maintenance: "
+        title2="Our relationship doesn't end at launch. We offer ongoing support and maintenance services to ensure your website remains up-to-date, secure, and optimized. We're just a call or email away whenever you need assistance or want to add new features to your website."
+      />
+        <BlogPara
+        title="With our Custom Website Development Service, you'll have a tailor-made digital solution that meets your unique requirements and exceeds your expectations. So, let us weave our digital sorcery and create a website that leaves your audience spellbound and sets your business on the path to success."
       />
     </div>
   );

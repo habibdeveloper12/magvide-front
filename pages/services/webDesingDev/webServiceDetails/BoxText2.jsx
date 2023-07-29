@@ -1,129 +1,63 @@
+import BlogHeading from '@/components/layout/BlogHeading';
+import BlogPara from '@/components/layout/BlogPara';
+import BlogPara2 from '@/components/layout/BlogPara2';
 import React from 'react';
-import Heading from '../../../../components/layout/Heading';
-import Para from '../../../../components/layout/Para';
-import SubHeading from '../../../../components/layout/SubHeading';
 
 const BoxText2 = () => {
   return (
-    <div className="w-[80%]">
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Dominate Your Customer with Local SEO Service"
+    <div className="w-[100%]">
+      <BlogHeading title="Build A Best-Looking E-Commerce Store With Magvide E-commerce Website Design Service" />
+      <BlogPara title="Welcome to the quirky and enchanting realm of Magvide's E-Commerce Website Design service. Hold onto your shopping carts because we're about to take your online store to the next level. Our design makes your customer buy something from you. Get ready for an e-commerce experience that will make your competitors green with envy." />
+
+      <BlogHeading title="How Our E-Commerce Websites Outshine The Competition?" />
+      <BlogPara title="At Magvide, we take pride in creating e-commerce websites that outshine the competition like a shooting star in a crowded night sky. Our approach is rooted in innovation, attention to detail, and a touch of magic. Here's how our e-commerce websites soar above the rest:" />
+      <BlogPara2
+        title="1.	Stunning Visual Appeal "
+        title2="We believe that aesthetics matter. Our team of talented designers will create visually captivating websites that leave a lasting impression. From eye-catching product displays to seamless user interfaces, we'll ensure that your website stands out from the digital crowd and entices visitors to explore further."
       />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="We don't live in posters and television ads anymore. We live in a search era. So, old marketing won't work anymore.Did you know that almost all online search users (97%) seek local businesses? Mobile searches are especially effective, with 88% leading to store visits, phone calls, or purchases within a week."
+      <BlogPara2
+        title="2.	User-Centric Experience:  "
+        title2="We place your customers at the heart of our design process. By understanding their preferences, behaviors, and needs, we craft an exceptional user experience that keeps them engaged and encourages them to make purchases. Intuitive navigation, clear calls to action, and streamlined checkout processes are just a few of the ways we ensure your website is user-friendly."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title=" In fact, 72% of people who use their smartphones to search for something nearby visit a store within five miles. How do those stores appear at the right time and at the right place? The answer is simple with local SEO. Local SEO makes that business appear in front of customers and visit it."
+      <BlogPara2
+        title="3.	Mobile-Optimized Magic:  "
+        title2=" In this mobile-driven world, your e-commerce website must shine on all devices. Our team will optimize your website for mobile responsiveness, ensuring that it looks stunning and functions flawlessly on smartphones and tablets. No matter where your customers are, they'll enjoy a seamless shopping experience."
       />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Customers don't search for hours to select and visit the place. They decide within minutes. They searched and looked for store locations and went there. You can't make people come to your business; your business should pop up the customers at the right time. Local SEO does that for you. If you crack the local SEO codes once, your business will be the local talk of the town.
+      <BlogPara2
+        title="4.	Conversion-Boosting Features:  "
+        title2="We sprinkle conversion-boosting elements throughout your website to turn visitors into loyal customers. From persuasive product descriptions and customer reviews to personalized recommendations and social proof, we'll incorporate powerful tactics that encourage purchases and increase your conversion rates."
+      />
+      <BlogHeading title="How Magvide E-commerce Website, and Design Service Will, Help You Grow Sales?" />
+      <BlogPara
+        title="Our team of e-commerce sorcerers is here to weave their magic and create a digital shopping extravaganza that will have your customers reaching for their wallets faster than a cheetah on roller skates.
+        So, what makes our E-Commerce Website Design service stand out like a dancing unicorn in a sea of plain ponies? Let us break it down for you:
         "
       />
-      <Para
-        className="text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Magvida's local SEO service will do all the backend work for you. As a trustworthy local SEO company, we are dedicated to providing more than just local SEO services and reports. Our team of experts will educate you on what local SEO is and show you how to implement it effectively. Together, we will develop a comprehensive local SEO checklist that covers all the strategies included in your package, ensuring that we are both on the same page.
-        "
+      <BlogPara2
+        title="1.	Captivating Storefront:  "
+        title2="Say goodbye to cookie-cutter templates that make your online store look like a drab discount bin. Our designers will conjure up a visually stunning storefront that showcases your products like dazzling gems in a treasure trove. We'll make your customers go, 'Wow, this is the coolest store I've ever seen!'"
       />
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="How Magvide Local SEO Experts Works?"
+      <BlogPara2
+        title="2.	Shopper-Friendly Navigation:  "
+        title2="We believe in making the shopping experience a breeze. Our team will craft intuitive navigation that guides your customers through your virtual aisles with the grace of a seasoned shopaholic. Finding the perfect product will be as easy as finding the last slice of pizza at a party."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="1.	Google My Business (GMB) Listing: "
+      <BlogPara2
+        title="3.	Jaw-Dropping Product Displays:  "
+        title2="A picture is worth a thousand words, but a well-presented product image can make your customers weak in the knees. Our designers will ensure that your products are displayed with the utmost finesse, showcasing their best angles and irresistible features. Get ready for product images that will make your customers say, 'Take my money!'"
       />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Creating and optimizing a GMB listing is an absolute must. It involves claiming your business profile, providing accurate and up-to-date information about your business (such as name, address, and phone number), selecting relevant categories, adding photos, and encouraging customer reviews."
+      <BlogPara2
+        title="4.	Checkout Magic:  "
+        title2="We understand that the checkout process can make or break a sale. That's why we sprinkle our e-commerce enchantments into the checkout flow, making it smooth, seamless, and as stress-free as a massage from a unicorn. With secure payment gateways and user-friendly forms, your customers will sail through the checkout process like they're on a luxury yacht."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="2.	NAP Consistency"
+      <BlogPara2
+        title="5.	Mobile Shopping Extravaganza:  "
+        title2="Mobile shopping is the new black, and we'll make sure your online store is dressed to impress on every device. Our team will optimize your e-commerce website for mobile, ensuring that your customers can shop with ease, whether they're lounging on the couch or sipping coffee at a trendy cafe."
       />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="NAP stands for Name, Address, and Phone number. Ensuring consistent and accurate NAP information across your website, GMB listing, and other online directories is important for local SEO. Inconsistent information can confuse search engines and customers, affecting your local search rankings."
+      <BlogPara2
+        title="6.	Search Engine Stardom:  "
+        title2="We'll sprinkle a pinch of SEO magic to help your online store shine brighter than a disco ball. Our team will optimize your product pages, meta tags, and other elements to improve your search engine rankings. Say hello to increased visibility and a flood of eager shoppers finding their way to your virtual doors."
       />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="3.	Local Citations: "
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Online citations refer to any mention of your business name, address, and phone number. Building citations on relevant and authoritative local directories, such as Yelp, Yellow Pages, and local chamber of commerce websites, can help improve your local search visibility. Consistency in NAP information across citations is vital."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="4.	On-Page Optimization: "
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Optimizing your website's on-page elements is crucial for local SEO. This includes incorporating local keywords in title tags, meta descriptions, headings, and content. Also, adding location-specific content, such as localized landing pages or blog posts, can help boost your local rankings."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="5.	Online Reviews: "
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Positive online reviews from customers on platforms like Google, Yelp, and Facebook can enhance your local SEO. Encourage customers to leave reviews, respond to them promptly (whether positive or negative), and strive to maintain a positive online reputation."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="6.	Local Link Building"
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Building high-quality backlinks from local websites and relevant industry directories can help improve your local search visibility. Networking with local businesses, sponsoring events, or contributing guest posts on local blogs is some ways to acquire local backlinks."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="7.	Mobile Optimization: "
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="With the increasing use of mobile devices, optimizing your website for mobile users is essential for local SEO. Make sure that your website is optimized for mobile devices, loads rapidly, and offers an effortless user experience for various screen sizes."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="8.	Local Schema Markup"
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Implementing structured data markup (schema markup) on your website can provide search engines with additional information about your business, such as address, phone number, business hours, customer reviews, and more. This helps search engines understand your business better and may enhance your local search visibility."
-      />
-      <SubHeading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:pt-8 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-bold font-pop"
-        title="9.	Social Media Engagement: "
-      />
-      <Para
-        className=" mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="Engaging with your local audience on social media platforms can indirectly influence your local SEO. By sharing local content, responding to comments, and building an active social media presence, you can increase your brand visibility and potentially generate more local traffic."
-      />
-      <Heading
-        className=" text-primary py-2 sm:py-3 md:py-1 lg:py-1 xl:py-1 lg:leading-[44px] xl:leading-[34px]    text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-pop"
-        title="Won't My Business Survive without Local SEO?"
-      />
-      <Para
-        className="mt-4 text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title="The clear out answer is no! Why? Well, because in today's world, everything is internet based. People like to speed time on their phones rather than in the real world. You can have a big poster about your business, and people may just pass by without even looking at it because they're too busy looking at their phones. That's why you need to pop up their screen and make them believe in your service and make them come to you."
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title=" According to a study by MarketingSherpa, local search has the most positive impact on digital marketing efforts for almost 54 percent of respondents."
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title=" In today's digital world, optimizing local SEO is a crucial strategy for businesses of all sizes. Small businesses and multi-location firms must focus on this to attract qualified leads and convert them into sales. However, ignoring local SEO could cause more harm to your business than you realize. It's time to take action and implement a local SEO strategy now."
-      />
-      <Para
-        className=" text-sm sm:text-base lg:text-sm text-[#2B2B2B] font-inter pb-4"
-        title=" In that case, we are wanna help you out. So, don't just sit back and watch your competitors eat up all your customers. Lets us play the local SEO cards for you and help you dominate the customers."
-      />
+      <BlogPara title="So, if you're ready to transform your online store from mediocre to mesmerizing, look no further than Magvide's E-Commerce Website Design service. Get ready to captivate your customers, boost your sales, and experience e-commerce success like never before. Contact us today, and let's sprinkle some magic into your online business. " />
     </div>
   );
 };
