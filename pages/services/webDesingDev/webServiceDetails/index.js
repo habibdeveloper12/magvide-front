@@ -13,30 +13,30 @@ const ServiceDetails = () => {
     <Layout>
 
     <div>
-      <div className="bg-primaryBg py-20 sm:py-24 md:py-32 lg:py-40 relative">
-        <div className="absolute left-0 top-[17px] sm:top-[3px] md:top-0">
-          <div className="w-[70px] h-[248px] sm:w-[90px] sm:h-[319px] md:w-[120px] md:h-[426px] lg:w-[155px] lg:h-[550px] relative">
+    <div className="bg-primaryBg py-20 sm:py-24 md:py-32 lg:py-40 relative">
+        <div className="absolute hidden sm:block left-0 top-[17px] sm:top-[3px] md:top-[20px] lg:top-0">
+          <div className="w-[70px] h-[248px] sm:w-[90px] sm:h-[319px] md:w-[100px] md:h-[380px]  lg:w-[130px] lg:h-[500px]  xl:w-[155px] xl:h-[550px] relative">
             <Image
               fill
               src="/assets/banner_left.png"
-              alt="banner_left_angle_image"
+              alt="banner_left_angle_image" 
             />
           </div>
         </div>
         <Container>
-          <div className="flex justify-center gap-3 md:gap-4">
+        <div className="flex justify-center gap-x-2 sm:gap-x-3 md:gap-x-4">
             <Heading
-              className="text-primary text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
-              title="WEB SERVICE "
+              className="text-primary text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold"
+              title="WEB SERVICE"
             />
             <Heading
-              className="yellow-gr text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
+             className="yellow-gr text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold"
               title="DETAILS"
             />
           </div>
         </Container>
-        <div className="absolute right-0 top-[26px] sm:top-[24px] md:top-[23px] lg:top-[-12px]">
-          <div className="w-[90px] h-[210px] sm:w-[110px] sm:h-[257px] md:w-[150px] md:h-[350px] lg:w-[215px] lg:h-[502px] relative">
+        <div className="absolute hidden sm:block right-0 top-[26px] sm:top-[24px] md:top-[53px] lg:top-[-6px] xl:top-[-12px]">
+          <div className="w-[90px] h-[210px] sm:w-[110px] sm:h-[257px] md:w-[130px] md:h-[300px] lg:w-[190px] lg:h-[465px] xl:w-[215px] xl:h-[502px] relative">
             <Image
               fill
               src="/assets/banner_right.png"
