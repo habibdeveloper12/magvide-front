@@ -4,12 +4,15 @@ import Container from "../layout/Container";
 import Heading from "../layout/Heading";
 import Para from "../layout/Para";
 import Slider from "react-slick";
+import Link from "next/link";
 
 const Banner = () => {
   const settings = {
     dots: false,
     infinite: true,
+    autoplay: true,
     speed: 500,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -39,7 +42,9 @@ const Banner = () => {
               title="Harness the power of our expertise, and we'll magnify your returns twofold. No empty promises, just dedicated work that speaks volumes through your account manager. Unlock your business's potential and become the town's talk with Magvide by your side. Let's create digital marketing magic together."
             />
             <div className="flex gap-4">
+              <Link href='/services'>
               <ButtonP title="Get Started" />
+              </Link>
             </div>
           </div>
           <div className="w-[90%] mx-auto sm:w-2/4 md:mt-16 lg:mt-20">

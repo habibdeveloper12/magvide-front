@@ -4,17 +4,18 @@ import SubHeading from "../layout/SubHeading";
 import Heading from "../layout/Heading";
 import Para from "../layout/Para";
 import ButtonP from "../layout/ButtonP";
+import Link from "next/link";
 
 const AboutUsSec = () => {
   return (
     <Container>
       <div className="sm:flex justify-between items-center px-3 sm:px-5 py-10 sm:py-16 md:py-20 lg:py-24">
         <div className=" w-[100%] sm:w-[45%] lg:w-2/4">
-          <div className="mx-auto w-[100%] h-[260px] sm:w-[340px] sm:h-[300px] md:w-[440px] md:h-[340px] lg:w-[570px] lg:h-[413px] relative">
-            <Image fill src="/assets/aboutus-image.png" alt="aboutus_image" />
+          <div className="mx-auto w-[100%] h-[340px] sm:w-[350px] sm:h-[350px] md:w-[380px] md:h-[380px] lg:w-[450px] lg:h-[450px] xl:w-[550px] xl:h-[550px] relative">
+            <Image fill src="/assets/home_about_sec_image.gif" alt="aboutus_image" />
           </div>
         </div>
-        <div className="sm:w-[45%] lg:w-2/4 pl-6">
+        <div className="sm:w-[45%] lg:w-2/4 sm:pl-5 mt-9 sm:mt-0">
           <SubHeading
             className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
             title="ABOUT US"
@@ -25,10 +26,12 @@ const AboutUsSec = () => {
           />
           <Para
             className=" text-sm sm:text-base lg:text-lg text-para font-inter pb-4 md:pb-6 lg:pb-10"
-            title="Welcome to Magivde, a leading digital marketing agency that specializes in providing comprehensive solutions to enhance your online presence. With a wide range of services spanning digital marketing, search engine optimization, social media marketing, and web design and development, we are committed to helping businesses thrive in the digital landscape.
+            title="Welcome to Magivde, a leading digital marketing agency that specializes in providing comprehensive solutions to enhance your online presence. With a wide range of services spanning digital marketing, search engine optimization, social media marketing, and web design and development.
             "
           />
+          <Link href="/aboutus" >
           <ButtonP title="Learn More" />
+          </Link>
         </div>
       </div>
     </Container>

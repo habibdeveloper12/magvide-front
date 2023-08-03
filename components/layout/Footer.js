@@ -135,8 +135,9 @@ const Footer = () => {
         <div>
           <p className="text-white">2023 All right reserved by Magvide</p>
         </div>
-        <div>
-          <p className="text-white">Privacy Policy | Sitemap</p>
+        <div className="flex gap-x-2">
+          <p className="text-white">Sitemap | </p>
+          <p className="text-white"> Privacy Policy</p>
         </div>
       </div>
     </div>

@@ -18,13 +18,6 @@ const AboutExpertSec = () => {
               className="text-center text-primary py-2 sm:py-3 md:py-4 lg:py-5 xl-7 lg:leading-[54px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bold font-pop"
               title="Meet With Our Experts"
             />
-            <div className=" sm:w-[70%] mx-auto">
-              <Para
-                className="text-center text-sm sm:text-base lg:text-lg text-para font-inter"
-                title="In our daily life, people usually look for different IT services 
-                for that. But from now on, no more worries,"
-              />
-            </div>
           </div>
 
           <div className="flex flex-wrap gap-y-4 justify-between pt-8 sm:pt-10 lg:pt-14">

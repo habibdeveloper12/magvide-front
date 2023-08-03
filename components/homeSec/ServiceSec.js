@@ -3,7 +3,7 @@ import Container from "../layout/Container";
 import Heading from "../layout/Heading";
 import SubHeading from "../layout/SubHeading";
 import Para from "../layout/Para";
-import ButtonP from "../layout/ButtonP";
+import Link from "next/link";
 
 const ServiceSec = () => {
   return (
@@ -20,6 +20,7 @@ const ServiceSec = () => {
           />
           <div className="flex flex-wrap justify-between pt-4 gap-y-4 sm:gap-y-6 md:gap-y-5   px-3 sm:px-5">
             <div className="w-[48%] md:w-[31.5%] lg:w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
+              <Link href="/services/digitalMarketing">
               <div className="w-[100%] h-[100px] sm:h-[191px] md:h-[150px] lg:h-[160px] xl:h-[191px] relative">
                 <Image
                   fill
@@ -41,8 +42,10 @@ const ServiceSec = () => {
                   Learn More...
                 </button>
               </div>
+              </Link>
             </div>
             <div className="w-[48%] md:w-[31.5%] lg:w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
+            <Link href="/services/webDesingDev">
               <div className="w-[100%] h-[100px] sm:h-[191px] md:h-[150px] lg:h-[160px] xl:h-[191px] relative">
                 <Image
                   fill
@@ -54,7 +57,7 @@ const ServiceSec = () => {
                 <SubHeading
                   className=" font-pop font-bold text-base sm:text-lg lg:text-xl xl:text-2xl
                      pb-2"
-                  title="Website Design"
+                  title="Web Desing & Development" 
                 />
                 <Para
                   className=" text-sm sm:text-base lg:text-lg text-para font-inter"
@@ -64,8 +67,10 @@ const ServiceSec = () => {
                   Learn More...
                 </button>
               </div>
+            </Link>
             </div>
             <div className="w-[48%] md:w-[31.5%] lg:w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
+              <Link href="/services/softwareDevelopment">
               <div className="w-[100%] h-[100px] sm:h-[191px] md:h-[150px] lg:h-[160px] xl:h-[191px] relative">
                 <Image
                   fill
@@ -87,8 +92,10 @@ const ServiceSec = () => {
                   Learn More...
                 </button>
               </div>
+              </Link>
             </div>
             <div className="w-[48%] md:w-[31.5%] lg:w-[22.5%] p-3 shadow-cshadow bg-white overflow-hidden rounded-lg">
+              <Link href="/services/creativeServices">
               <div className="w-[100%] h-[100px] sm:h-[191px] md:h-[150px] lg:h-[160px] xl:h-[191px] relative">
                 <Image
                   fill
@@ -110,11 +117,10 @@ const ServiceSec = () => {
                   Learn More...
                 </button>
               </div>
+              </Link>
             </div>
           </div>
-          <div className="mt-8 sm:mt-12 lg:mt-16 text-center">
-            <ButtonP title="Explore More Services" />
-          </div>
+       
         </div>
       </Container>
     </div>
