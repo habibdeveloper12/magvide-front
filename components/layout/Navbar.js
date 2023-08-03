@@ -27,15 +27,15 @@ const Navbar = ({ navbg }) => {
   return (
     <nav className={navbg}>
       <Container>
-        <div className="mx-3 sm:mx-5 md:flex pt-4 pb-4 md:py-4 items-center">
-          <div className="md:w-2/6">
+        <div className="mx-3 sm:mx-5 md:flex justify-between pt-4 pb-4 md:py-4 items-center">
+          <div className="md:w-[20%]">
             <Link href="/">
               <div className="w-[62px] h-[60px] md:w-[82px] md:h-[80px] relative">
                 <Image fill src="/assets/logo2.png" alt="logo" cover />
               </div>
             </Link>
           </div>
-          <div className=" md:w-4/6">
+          <div className=" md:[80%]">
             <FaBars
               className="block ml-auto md:hidden absolute text-lg sm:text-xl top-9 right-4"
               onClick={() => setShow(!show)}
@@ -44,28 +44,28 @@ const Navbar = ({ navbg }) => {
               <List className="text-primary flex flex-col md:flex-row md:justify-end md:gap-x-8 font-pop text-lg mt-2.5 md:mt-0">
                 <Link
                   href="/"
-                  className={router.pathname === '/' ? 'shadow-lg' : ''}
+                  className={router.pathname === '/' ? 'shadow-sm' : ''}
                 >
                   <ListItem
-                    className={`font-bold  text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold`}
+                    className={`font-bold  text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 px-3 py-1   my-auto hover:border-primary hover:font-bold`}
                     itemname="Home"
                   />
                 </Link>
 
-                <div className="relative group/item ">
+                <div className="relative group/item ml-3 ">
                   <Link
                     href="/services"
                     className={
-                      router.pathname === '/services' ? 'shadow-lg' : ''
+                      router.pathname === '/services' ? 'shadow-sm' : ''
                     }
                   >
                     <ListItem
-                      className=" font-bold inline-block lg:inline-block text-sm md:text-base lg:text-lg group/edit border-b-2 border-transparent transition duration-300 ease-in-out group-hover/item:border-b-2 group-hover/item:border-primary"
+                      className=" font-bold inline-block  md:mt-1 lg:inline-block text-sm md:text-base lg:text-lg group/edit border-b-2 border-transparent transition duration-300 ease-in-out group-hover/item:border-b-2 group-hover/item:border-primary"
                       itemname="Services"
                     />
                     <MdKeyboardArrowDown className="inline text-2xl" />
                   </Link>
-                  <div className="group/edit w-max  duration-200 invisible bg-white shadow-cshadow2 absolute right-0 md:right-[-250%] top-[220%] z-10 group-hover/item:visible group-hover/item:top-[200%]">
+                  <div className="group/edit w-max  duration-200 invisible bg-white shadow-cshadow2 absolute right-0 md:right-[-270%] top-[220%] z-10 group-hover/item:visible group-hover/item:top-[200%]">
                     <div className="flex w-[330px] sm:w-[600px]  md:w-[700px] lg:w-[900px] xl:w-[100%] gap-y-3 sm:gap-y-5 lg:gap-y-8   flex-wrap px-7 py-10">
                       <div className="w-4/4 sm:w-[55%] md:w-[50%] lg:w-max pr-5 lg:pr-0 sm:border-r border-primary">
                         <Link href="/services/digitalMarketing">
@@ -250,10 +250,10 @@ const Navbar = ({ navbg }) => {
                 </div>
                 <Link
                   href="/aboutus"
-                  className={router.pathname === '/aboutus' ? 'shadow-lg' : ''}
+                  className={router.pathname === '/aboutus' ? 'shadow-sm' : ''}
                 >
                   <ListItem
-                    className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold"
+                    className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 px-3 py-1 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold"
                     itemname="About Us"
                   />
                 </Link>
@@ -261,16 +261,16 @@ const Navbar = ({ navbg }) => {
                 <Link
                   href="/contactus"
                   className={
-                    router.pathname === '/contactus' ? 'shadow-lg' : ''
+                    router.pathname === '/contactus' ? 'shadow-sm' : ''
                   }
-                  style={{ display: 'flex', gap: '5px' }}
+                  style={{ display: 'flex',}}
                 >
                   {' '}
-                  <div className="w-[15px] h-[13px] mt-1 md:mt-[6px] lg:mt-[8px]   relative">
+                  <div className="w-[15px] ml-3 md:ml-0 h-[13px] mr-[-10px] mt-2 md:mt-[6px]  lg:mt-[12px]   relative">
                     <Image fill src="/contact.png" alt="logo" cover />
                   </div>
                   <ListItem
-                    className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold "
+                    className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 px-3 py-1 hover:border-primary hover:font-bold "
                     itemname="Contact Us"
                   />
                 </Link>

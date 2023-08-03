@@ -14,7 +14,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#151515] border-b-2  ">
+    <div className="bg-[#151515] border-b-8 border-yellow  ">
       <div className="lg:max-w-container mx-auto  border-b-2 mb-4">
         <div className="flex flex-wrap justify-between gap-y-4  py-5 px-5 sm:py-16 md:py-10 lg:py-10">
         <div className="w-[90%]  sm:w-[35%] lg:w-[25%]">
@@ -131,7 +131,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center lg:max-w-container mx-auto px-3 lg:px-0 border-b-3  pb-3 ">
+      <div className="flex justify-between items-center lg:max-w-container mx-auto px-3 lg:px-0 pb-3 ">
         <div>
           <p className="text-white">2023 All right reserved by Magvide</p>
         </div>
